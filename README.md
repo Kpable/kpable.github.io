@@ -23,7 +23,7 @@ I grew up playing games, never thought about making them until 2011 when in a gr
 ***
 ### Artificial Infiltration 
 
-| |![Artificial Infiltration Icon](/images/artificial_infiltration/ai.png =100px)| |
+<!-- ![Artificial Infiltration Icon](/images/artificial_infiltration/ai.png)  -->
 ![Artificial Infiltration Level](/images/artificial_infiltration/level.gif)
 
 #### Assertive Games
