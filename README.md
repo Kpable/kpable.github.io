@@ -1,4 +1,6 @@
-## Tl:dr 
+# Kpable
+
+## TL;DR
 - Goal = Gameplay programmer 
 - 2+ years; Software Engineer; C++, C
 - 2+ years; Hobbyist Game Developer; Unity C# 
@@ -21,10 +23,10 @@ I grew up playing games, never thought about making them until 2011 when in a gr
 ***
 ### Artificial Infiltration 
 
-![Artificial Infiltration Icon](/images/ai.png) 
-![Artificial Infiltration Level](/images/level.gif)
+![Artificial Infiltration Icon](/images/artificial_infiltration/ai.png) 
+![Artificial Infiltration Level](/images/artificial_infiltration/level.gif)
 
-####Assertive Games
+#### Assertive Games
 - [Trailer](https://youtu.be/uj48ozKSej0)
 - [Twitter](https://twitter.com/AItheGame)
 - [Youtube](https://www.youtube.com/channel/UCbqlgqA6nxTsqowBu3sfQaA)
