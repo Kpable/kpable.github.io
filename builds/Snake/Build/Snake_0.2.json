@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Snake_0.2.data.unityweb",
+"asmCodeUrl": "Snake_0.2.asm.code.unityweb",
+"asmMemoryUrl": "Snake_0.2.asm.memory.unityweb",
+"asmFrameworkUrl": "Snake_0.2.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
