@@ -1,7 +1,7 @@
 # Kpable
 
 ## TL;DR
-- Goal = Gameplay programmer 
+- Gameplay programmer 
 - 2+ years; Software Engineer; C++, C
 - 2+ years; Hobbyist Game Developer; Unity C# 
 - 1 Released game; 2 Current Games; A couple clones; Too many ideas
