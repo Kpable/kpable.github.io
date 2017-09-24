@@ -1,2 +1,22 @@
-theme: jekyll-theme-tactile
 title: Kpable
+theme: jekyll-theme-tactile
+email: lhryenos@gmail.com
+description: > 
+  Portfolio of a Gameplay Programmer
+twitter_username: Kpable
+github_username:  Kpable
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" 
+      type: "pages" 
+    values:
+      layout: "home"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      excerpt_separator: <!--excerpt_end-->    

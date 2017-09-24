@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+<section id="main_content">
+  {{ content }}
+</section>
+
+<!-- <ul class="post-list"> -->
+{% for post in site.posts %}
+	{% unless post.tag == 'project' %}
+		{% if page.category == post.category %}
+		  
+		    <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+		    <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+		    <h2>
+		      <!-- <a class="post-link" href="{{ post.url | relative_url }}"> -->{{ post.title | escape }}<!-- </a> -->
+		    	{{ post.content }}
+		    </h2>
+		  
+	  	{% endif %}
+  	{% endunless %}
+{% endfor %}
+
+<!-- </ul>	 -->
