@@ -20,3 +20,10 @@ defaults:
       type: "posts"
     values:
       excerpt_separator: <!--excerpt_end-->    
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
