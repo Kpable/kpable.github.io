@@ -8,16 +8,19 @@ permalink: :categories/:title
 Upon player reaching a corner of the tower, gameplay focus shifts to that side of the tower. 
 
 #### Development Considerations
-With the expected player control for this 2.5D platformer being left, right, and jump, I considered how to both maintain that control constant and maintain view of the play space as the playing field shifted planes in 3D space. 
+With the designed player control for this 2.5D platformer being left, right, and jump, I considered how to both maintain that control constant and maintain view of the play space as the playing field shifted planes in 3D space. 
 
 ![Corner Rotation]({{ site.url }}/assets/corner.gif)
 
 <!--excerpt_end-->
 
-#### High Level Considerations
+#### Quick Thoughts Towards A Solution
 - Player rotates about self to maintain left/right platformer control.
 - Camera rotates about tower to maintain view of the play space.
 - Player triggers both rotations once a corner is reached.
+
+> Doesn't sound too hard
+
 
 ##### Corner Triggering
 
@@ -43,7 +46,7 @@ To identify which edge of the square the player is on I took a look at the tower
 ![The Square From Above]({{ site.url }}/assets/above_axis.png)
 
 [Utils.cs](https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Utils.cs)
-{{% highlight c# %}}
+{% highlight c# %}
 	public enum EdgeOfCube 
 	{ 
 		Bottom, 
@@ -56,7 +59,7 @@ To identify which edge of the square the player is on I took a look at the tower
 		TopLeftCorner, 
 		Lost 
 	}
-{{% endhighlight %}}
+{% endhighlight %}
 
 ##### Player Rotation
 
@@ -82,9 +85,9 @@ For each edge the player is on the left and right axis changes.
 
 Because of this, instead of having the player object move left and right in the world, i instead set the input to move left and right with respect to the players current rotation. This let me be sure that the player object will always move left when the player wants to left and same for right. 
 
-But that only works for the bottom edge of the tower. So the player object has to be rotated at each corner. 
+But that only works for the bottom edge of the tower. So the player object has to be rotated at each corner. I identified that on the bottom of the tower, the player is on the XY plane with positive X being to the right and so has no rotation. 
 
-{{% highlight c# %}}
+{% highlight c# %}
 	// Returns the rotation along the y axis of object's self based on the edge
 	public static float EdgeToRotation(this EdgeOfCube edge)
 	{
@@ -117,7 +120,7 @@ But that only works for the bottom edge of the tower. So the player object has t
 
 	    return rotation;
 	}
-{{% endhighlight %}}
+{% endhighlight %}
 
 PlayerEdgeMovement.cs
 
