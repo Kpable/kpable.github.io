@@ -19,7 +19,7 @@
           {% for post in site.posts %}
               {% if post.tag == "project" %}
                 <div>
-                 <h2> <a href="{{ post.url }}">{{ post.description }}</a></h2>
+                 <h2> <a href="{{ post.url }}">{{ post.title }}</a></h2>
                   {{ post.excerpt }}
                 </div>
               {% endif %}

@@ -2,6 +2,8 @@
 layout: page
 ---
 
+<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+
 <section id="main_content">
   {{ content }}
 </section>
@@ -14,8 +16,8 @@ layout: page
 		    <span class="post-meta">{{ post.date | date: date_format }}</span> -->
 		    <hr>
 		    <h2>
-		    	{{ post.title | escape }}
-		        <!-- <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> -->
+		    	<!-- {{ post.title | escape }} -->
+		        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
 		    </h2>
 		  	{{ post.excerpt }}
 	  	{% endif %}
