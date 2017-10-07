@@ -1,5 +1,6 @@
 ---
 layout: project
+description: Artificial Infiltration (Assertive Games)
 permalink: /artificial-infiltration/
 category: artificial-infiltration
 tag: project
