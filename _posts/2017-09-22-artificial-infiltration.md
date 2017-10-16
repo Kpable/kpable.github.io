@@ -19,10 +19,6 @@ My role on the team was Lead Programmer (although in the game I call myself the 
 - Code debugging and maintenance 
 - UI technical design and implementation
 
-And so…. I did the things.
-
-<!-- In Artificial Infiltration, you play as A.D.A. (Artificial Defense Assistant), an AI tasked with the infiltration of enemy systems, the complexity of which are circumnavigated by instantiating both A.D.A. and the entire system in a virtualized environment. You take control of the virtualized instance of A.D.A. and guide her through the enemy system, finding successful infiltration awaiting somewhere in the maze. -->
-
 ![Artificial Infiltration Level] [level]
 
 <!--excerpt_end-->

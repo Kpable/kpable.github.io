@@ -21,10 +21,11 @@ The destination will need to have an edge associated with it and that edge will 
 "The corner rotation is already done and there was no previous mention of multiple towers. I'm going to have to rewrite most of the code that identifies where the player is and where the player is going. Sigh..." 
 **_- Past Me_**
 
-"Yeah, that stuff happens sometimes, but now know you know not to code with the assumptions that designs will stay the same. I like how accommodating you tried to make the code after that to try to keep things working given the mysterious unknown variable that is your teammates." 
+"Yeah, that stuff happens sometimes, but now you know not to code with the assumptions that designs will stay the same. I like how accommodating you tried to make the code after that to try to keep things working given the mysterious unknown variable that is your teammates." 
 **_- Present Me_**
 
 
-[teleportation]:                    {{ site.url }}/assets/teleportation.gif
+[teleportation]:            {{ site.url }}/assets/teleportation.gif
 
 [TeleportTrigger.cs]:       https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Triggers/TeleportTrigger.cs
+[CubeSpace.cs]: 			https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/CubeSpace.cs
