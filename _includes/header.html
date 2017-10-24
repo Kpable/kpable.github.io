@@ -1,5 +1,29 @@
-<header>
+<header style="padding-bottom: 0px">
   <h1>{{site.github.owner_name}}</h1>
   <h2>{{ default: site.description | default: site.github.project_tagline | page.description }}</h2>
   <!-- <h3>{{ page.title | default: site.title | default: site.github.repository_name }}</h3> -->
 </header>
+
+<nav class="navbar navbar-expand-md">
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10" style="">
+    <ul class="navbar-nav">
+      <div class="nav-item active">
+        <a class="nav-link" href="{{ site.url }}">Home <span class="sr-only">(current)</span></a>
+      </div>
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown10">
+          {% for post in site.posts %}
+            {% if post.tag == "project" %}
+              <a class="dropdown-item" href="{{ post.url }}">{{ post.description }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </ul>
+  </div>
+</nav>
