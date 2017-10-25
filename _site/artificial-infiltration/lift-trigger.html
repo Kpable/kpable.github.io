@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/style.css?v=2020aeeb79f82d158dc144418d1d1aa15ae4dabe">
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Lift Trigger | Kpable</title>
+<meta property="og:title" content="Lift Trigger" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Design Challenge Create a trigger that, when entered, would add force to whatever entered it. Development Considerations The force applied will have to be applied to any object that enters the trigger, not just the last one. That force will have to be continuous unless a single shot burst is desired." />
+<meta property="og:description" content="Design Challenge Create a trigger that, when entered, would add force to whatever entered it. Development Considerations The force applied will have to be applied to any object that enters the trigger, not just the last one. That force will have to be continuous unless a single shot burst is desired." />
+<link rel="canonical" href="http://localhost:4000/artificial-infiltration/lift-trigger" />
+<meta property="og:url" content="http://localhost:4000/artificial-infiltration/lift-trigger" />
+<meta property="og:site_name" content="Kpable" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-03-25T00:00:00-04:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Design Challenge Create a trigger that, when entered, would add force to whatever entered it. Development Considerations The force applied will have to be applied to any object that enters the trigger, not just the last one. That force will have to be continuous unless a single shot burst is desired.","author":null,"@type":"BlogPosting","url":"http://localhost:4000/artificial-infiltration/lift-trigger","publisher":null,"image":null,"headline":"Lift Trigger","dateModified":"2017-03-25T00:00:00-04:00","datePublished":"2017-03-25T00:00:00-04:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/artificial-infiltration/lift-trigger"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header style="padding-bottom: 0px">
+  <h1>Kpable</h1>
+  <h2>Portfolio of a Gameplay Programmer</h2>
+  <!-- <h3>Lift Trigger</h3> -->
+</header>
+
+<nav class="navbar navbar-expand-md">
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10" style="">
+    <ul class="navbar-nav">
+      <div class="nav-item active">
+        <a class="nav-link" href="http://localhost:4000">Home <span class="sr-only">(current)</span></a>
+      </div>
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown10">
+          
+            
+              <a class="dropdown-item" href="/artificial-infiltration/">Artificial Infiltration (Assertive Games)</a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+      </div>
+    </ul>
+  </div>
+</nav> 
+
+        <hr>
+
+        <section id="main_content">
+          <article>
+
+<h1 class="post-title" itemprop="name headline">Lift Trigger</h1>
+
+  <div class="post-content" itemprop="articleBody">
+    <h4 id="design-challenge">Design Challenge</h4>
+<p>Create a trigger that, when entered, would add force to whatever entered it.</p>
+
+<h4 id="development-considerations">Development Considerations</h4>
+<p>The force applied will have to be applied to any object that enters the trigger, not just the last one. That force will have to be continuous unless a single shot burst is desired.</p>
+
+<p><img src="http://localhost:4000/assets/lift-trigger.gif" alt="Lift Trigger" /></p>
+
+<!--excerpt_end-->
+
+<h4 id="then-and-now-thoughts">Then and Now Thoughts</h4>
+
+<p>“Alright, I don’t know which direction the designer will want the force to be applied so I’ll have to account for that. Also since there’s talk of having an enemy follow the player around I won’t know how many objects will be in this trigger at the same time. Better play it safe and account for the unknowns.” 
+<strong><em>- Past Me</em></strong></p>
+
+<p>“Regrettably, this feature didn’t make it into the final game but given the little information you had at the time, rather impressive job accounting for various possibilities.” 
+<strong><em>- Present Me</em></strong></p>
+
+<h4 id="tldr">TL;DR</h4>
+<ul>
+  <li>Maintained a list of physics bodies to apply force to</li>
+  <li>Continuously applied set force to list of bodies</li>
+  <li>Alternative to apply larger force in one burst</li>
+  <li>Added simple method for choosing force direction</li>
+</ul>
+
+<hr />
+
+<p>To account for the unknown regarding number of objects that will be in the trigger simultaneously, I created a list to keep track of the and upon entering the trigger the object, should it contain a physics body will be added to the list.</p>
+
+<p><a href="https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Triggers/LiftTrigger.cs">LiftTrigger.cs</a></p>
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="n">List</span><span class="p">&lt;</span><span class="n">Rigidbody</span><span class="p">&gt;</span> <span class="n">liftTargets</span><span class="p">;</span>
+<span class="p">...</span>
+<span class="k">void</span> <span class="nf">OnTriggerEnter</span><span class="p">(</span><span class="n">Collider</span> <span class="n">col</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="c1">//Grab the Rigidbody
+</span>
+    <span class="n">Rigidbody</span> <span class="n">body</span> <span class="p">=</span> <span class="n">col</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Rigidbody</span><span class="p">&gt;();</span>             
+    <span class="c1">//Check if its present
+</span>
+    <span class="k">if</span> <span class="p">(</span> <span class="n">body</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>                                       
+    <span class="p">{</span>
+        <span class="p">...</span>
+        <span class="c1">//Add to list of bodies to get handsy with
+</span>
+        <span class="n">liftTargets</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="n">body</span><span class="p">);</span>                                  
+        <span class="p">...</span>      
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>As well as removed from the list once they exit the trigger.</p>
+
+<p><a href="https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Triggers/LiftTrigger.cs">LiftTrigger.cs</a></p>
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">void</span> <span class="nf">OnTriggerExit</span><span class="p">(</span><span class="n">Collider</span> <span class="n">col</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="p">...</span>
+    <span class="c1">//Check if it's currently in the list of bodies
+</span>
+    <span class="k">if</span> <span class="p">(</span> <span class="n">liftTargets</span><span class="p">.</span><span class="nf">Contains</span><span class="p">(</span><span class="n">body</span><span class="p">)</span> <span class="p">)</span>                       
+    <span class="p">{</span>
+        <span class="c1">//Remove them if they are
+</span>
+        <span class="kt">bool</span> <span class="n">success</span> <span class="p">=</span> <span class="n">liftTargets</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="n">body</span><span class="p">);</span>            
+        <span class="k">if</span> <span class="p">(!</span><span class="n">success</span><span class="p">)</span> 
+            <span class="n">Debug</span><span class="p">.</span><span class="nf">LogWarning</span><span class="p">(</span><span class="s">"Failed to let go of this body: "</span> <span class="p">+</span> 
+                    <span class="n">body</span><span class="p">.</span><span class="n">gameObject</span><span class="p">.</span><span class="n">name</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="p">...</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Then while the physics bodies are in the trigger, a set force will be applied to them.</p>
+
+<p><a href="https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Triggers/LiftTrigger.cs">LiftTrigger.cs</a></p>
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">void</span> <span class="nf">FixedUpdate</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span> <span class="n">liftTargets</span><span class="p">.</span><span class="n">Count</span> <span class="p">&gt;</span> <span class="m">0</span> <span class="p">)</span>
+    <span class="p">{</span>
+        <span class="c1">//Continuously add liftForce to the rigid
+</span>
+        <span class="c1">//bodies in the trigger
+</span>
+        <span class="p">...</span>
+        <span class="n">liftTargets</span>
+            <span class="p">.</span><span class="nf">ForEach</span><span class="p">(</span><span class="n">body</span> <span class="p">=&gt;</span> <span class="p">{</span>
+            <span class="n">body</span><span class="p">.</span><span class="nf">AddForce</span><span class="p">(</span>
+                <span class="n">direction</span><span class="p">.</span><span class="nf">Trans</span><span class="p">(</span><span class="n">body</span><span class="p">.</span><span class="n">transform</span><span class="p">)</span> <span class="p">*</span> <span class="n">liftForce</span> <span class="p">);</span>
+        <span class="p">});</span> <span class="c1">// Get handsy with that body
+</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Alternatively, if the force should be applied in a single burst shot, acting more like a cannon than a gentle hovering force, instead of adding the physics body to a list, force is applied the moment it enters the trigger.</p>
+
+<p><a href="https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Triggers/LiftTrigger.cs">LiftTrigger.cs</a></p>
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="n">List</span><span class="p">&lt;</span><span class="n">Rigidbody</span><span class="p">&gt;</span> <span class="n">liftTargets</span><span class="p">;</span>
+<span class="p">...</span>
+<span class="k">void</span> <span class="nf">OnTriggerEnter</span><span class="p">(</span><span class="n">Collider</span> <span class="n">col</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="p">...</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">singleShot</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="c1">// Just once.. just once 
+</span>
+        <span class="n">body</span><span class="p">.</span><span class="nf">AddForce</span><span class="p">(</span><span class="n">direction</span><span class="p">.</span><span class="nf">Trans</span><span class="p">(</span><span class="n">body</span><span class="p">.</span><span class="n">transform</span><span class="p">)</span> <span class="p">*</span> <span class="n">liftForce</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span>
+    <span class="p">{</span>
+        <span class="c1">//Add to list of bodies to get handsy with
+</span>
+        <span class="n">liftTargets</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="n">body</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="p">...</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>As far as direction goes, as I didn’t know how this trigger was to be used at the time, I added a means for the designer to also choose the direction the force is applied easily from Unity’s inspector.</p>
+
+<p><a href="https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Utils.cs">Utils.cs</a></p>
+
+<figure class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="k">public</span> <span class="k">enum</span> <span class="n">Direction</span> <span class="p">{</span> <span class="n">Up</span><span class="p">,</span> <span class="n">Left</span><span class="p">,</span> <span class="n">Down</span><span class="p">,</span> <span class="n">Right</span><span class="p">,</span> <span class="n">Forward</span><span class="p">,</span> <span class="n">Back</span> <span class="p">}</span>
+
+<span class="c1">// Probably not the best place for this static class. 
+</span>
+<span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">EnumUtils</span>
+<span class="p">{</span>
+    <span class="p">...</span>
+    <span class="c1">//Extension method to get the Vector3 based on 
+</span>
+    <span class="c1">//the Transform's direction. 
+</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="n">Vector3</span> <span class="nf">Trans</span><span class="p">(</span><span class="k">this</span> <span class="n">Direction</span> <span class="n">dir</span><span class="p">,</span> <span class="n">Transform</span> <span class="n">t</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="k">switch</span> <span class="p">(</span><span class="n">dir</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">case</span> <span class="n">Direction</span><span class="p">.</span><span class="n">Up</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">t</span><span class="p">.</span><span class="n">up</span><span class="p">;</span>
+            <span class="k">case</span> <span class="n">Direction</span><span class="p">.</span><span class="n">Left</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">t</span><span class="p">.</span><span class="n">right</span> <span class="p">*</span> <span class="p">-</span><span class="m">1</span><span class="p">;</span>
+            <span class="k">case</span> <span class="n">Direction</span><span class="p">.</span><span class="n">Down</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">t</span><span class="p">.</span><span class="n">up</span> <span class="p">*</span> <span class="p">-</span><span class="m">1</span><span class="p">;</span>
+            <span class="k">case</span> <span class="n">Direction</span><span class="p">.</span><span class="n">Right</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">t</span><span class="p">.</span><span class="n">right</span><span class="p">;</span>
+            <span class="k">default</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">t</span><span class="p">.</span><span class="n">up</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="p">...</span></code></pre></figure>
+
+
+  </div>
+
+</article>
+        </section>
+
+        <footer>
+  This page was generated by <a href="https://pages.github.com">GitHub Pages</a> and is maintained by <a href="http://github.com/Kpable">Kpable</a>.
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+      </div>
+    </div>
+
+    
+  </body>
+
+</html>
