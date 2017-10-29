@@ -1,29 +1,36 @@
-<header style="padding-bottom: 0px">
-  <h1>{{site.github.owner_name}}</h1>
-  <h2>{{ default: site.description | default: site.github.project_tagline | page.description }}</h2>
-  <!-- <h3>{{ page.title | default: site.title | default: site.github.repository_name }}</h3> -->
-</header>
-
-<nav class="navbar navbar-expand-md">
-  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10" style="">
-    <ul class="navbar-nav">
-      <div class="nav-item active">
-        <a class="nav-link" href="{{ site.url }}">Home <span class="sr-only">(current)</span></a>
-      </div>
-      <div class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown10">
-          {% for post in site.posts %}
-            {% if post.tag == "project" %}
-              <a class="dropdown-item" href="{{ post.url }}">{{ post.description }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
+<!-- Header -->
+  <header id="header">
+    <a href="{{ '' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
+    <ul class="icons">
+      {% if site.twitter_url %}
+      <li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+      {% endif %}
+      {% if site.googleplus_url %}
+      <li><a href="{{ site.googleplus_url }}" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+      {% endif %}
+      {% if site.facebook_url %}
+      <li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+      {% endif %}
+      {% if site.instagram_url %}
+      <li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+      {% endif %}
+      {% if site.pinterest_url %}
+      <li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+      {% endif %}
+      {% if site.500px_url %}
+      <li><a href="{{ site.500px_url }}" class="icon fa-500px" target="_blank"><span class="label">500px</span></a></li>
+      {% endif %}
+      {% if site.gitlab_url %}
+      <li><a href="{{ site.gitlab_url }}" class="icon fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+      {% endif %}
+      {% if site.github_url %}
+      <li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+      {% endif %}
+      {% if site.slack_url %}
+      <li><a href="{{ site.slack_url }}" class="icon fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+      {% endif %}
+      {% if site.linkedin_url %}
+      <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+      {% endif %}
     </ul>
-  </div>
-</nav>
+  </header>

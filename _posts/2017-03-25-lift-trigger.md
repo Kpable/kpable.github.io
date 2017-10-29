@@ -1,25 +1,27 @@
 ---
-layout: post
 category: artificial-infiltration
-permalink: :categories/:title
+fa_icon: fa-angle-double-up
+description: |
+  Create a trigger that, when entered, would add force to whatever entered it. 
 ---
 
 #### Design Challenge
-Create a trigger that, when entered, would add force to whatever entered it. 
+{{ page.description }}
+<!-- Create a trigger that, when entered, would add force to whatever entered it.  -->
 
 #### Development Considerations
 The force applied will have to be applied to any object that enters the trigger, not just the last one. That force will have to be continuous unless a single shot burst is desired. 
 
-![Lift Trigger] [lift-trigger]
+![Lift Trigger] [lift-trigger]{:class="image fit"}
 
 <!--excerpt_end-->
 
 #### Then and Now Thoughts
 
-"Alright, I don’t know which direction the designer will want the force to be applied so I’ll have to account for that. Also since there’s talk of having an enemy follow the player around I won’t know how many objects will be in this trigger at the same time. Better play it safe and account for the unknowns." 
+> "Alright, I don’t know which direction the designer will want the force to be applied so I’ll have to account for that. Also since there’s talk of having an enemy follow the player around I won’t know how many objects will be in this trigger at the same time. Better play it safe and account for the unknowns." 
 **_- Past Me_**
 
-"Regrettably, this feature didn’t make it into the final game but given the little information you had at the time, rather impressive job accounting for various possibilities." 
+> "Regrettably, this feature didn’t make it into the final game but given the little information you had at the time, rather impressive job accounting for various possibilities." 
 **_- Present Me_**
 
 #### TL;DR

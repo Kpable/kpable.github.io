@@ -1,33 +1,32 @@
 ---
-layout: post
 category: artificial-infiltration
-permalink: :categories/:title
+fa_icon: fa-retweet
+description: |
+  Upon player reaching a corner of the tower, gameplay focus shifts to that side of the tower. 
+image: corner.gif
 ---
 
-#### Design Challenge
-Upon player reaching a corner of the tower, gameplay focus shifts to that side of the tower. 
+## Design Challenge
 
-#### Development Considerations
+{{ page.description }}
+
+## Development Considerations
+
 With the designed player control for this 2.5D platformer being left, right, and jump, I considered how to both maintain that control constant and maintain view of the play space as the playing field shifted planes in 3D space. 
 
-![Corner Rotation] [corners]
+![Corner Rotation] [corners]{:class="image fit"}
 
 <!--excerpt_end-->
 
-#### Then and Now Thoughts
+## Then and Now Thoughts
 
-"So, to get this going I just need to make sure 
-- the player rotates about self to maintain left/right platformer control, 
-- the camera rotates about tower at a set distance to maintain view of the play space, and 
-- the player triggers both rotations once a corner is reached.
-
-Doesn't sound too hard, shouldn't be too bad." 
+> "So, to get this going I just need to make sure the player rotates about itself to maintain left/right platformer control, the camera rotates about the tower at a set distance to maintain view of the play space, and the player triggers both rotations once a corner is reached. Doesn't sound too hard, shouldn't be too bad." 
 **_- Past Me_**
 
-"No, Past Me, just no. You've got the right idea, but don’t ever assume that. You have no idea what designs may change or how other features will interact with this one. Don't worry though, you'll find out the *fun* way." 
+>"No, Past Me, just no. You've got the right idea, but don’t ever assume that. You have no idea what designs may change or how other features will interact with this one. Don't worry though, you'll find out the *fun* way." 
 **_- Present Me_**
 
-#### TL;DR
+## TL;DR
 - Set up triggers at each corner to identify __which corner was triggered__.
 - Created a way to determine __what edge the payer is on__.
 - Figured out __which edge the player is going to__.
@@ -40,7 +39,7 @@ Doesn't sound too hard, shouldn't be too bad."
 
 ---
 
-#### Corner Triggering
+### Corner Triggering
 
 I started to work through this in the order I expected the player to experience. So first step, detecting when the player has reached a corner. 
 
@@ -48,7 +47,7 @@ I placed four trigger colliders, one at each corner to detect when the player en
 
 Upon entering the trigger, both the player and camera will be alerted to begin rotating onto the new edge. This also tells the player and camera __which corner was triggered__.
 
-[Corner_Switch.cs]
+[CornerSwitch.cs]
 
 {% highlight c# %}
 void OnTriggerEnter(Collider col)
@@ -105,21 +104,21 @@ void PositionCornerTriggers()
 
 I tried to make it as easy as possible for my other team members to be able create a new tower and have it function appropriately. For this script to work, the game object containing this script just had to placed close enough to the tower and it would be able to position each trigger appropriately based on the nearest tower's position and size where size is the length or width of the square. But I digress.  
 
-#### Corner Rotations 
+### Corner Rotations 
 
 Next up was getting the player and the camera to rotate around a corner. For this I took pen to paper to figure out the kind of rotations both objects need to make and the similarities between them. 
 
 For each of the four corners on the square there’s both the clockwise and counter-clockwise rotation.
 
-![The Eight Rotations] [corner-rotations] 
+![The Eight Rotations] [corner-rotations]{:class="image fit"}
 
 To determine which direction to rotate the playing field I needed to determine which edge the player is on. 
 
-#### Edge Tracking
+### Edge Tracking
 
 To identify which edge of the square the player is on I looked at the tower from above and designated the four edges. 
 
-![The Square From Above] [above_axis]
+![The Square From Above] [above_axis]{:class="image fit"}
 
 [Utils.cs]
 {% highlight c# %}
@@ -206,11 +205,11 @@ public static EdgeOfCube DetectEdge(Transform t)
 
 Now we know __which edge the player is on__ and __which corner the player triggered__ which gives us __which edge the player is going to__. With that additional information, I went on to consider how to rotate the player. 
 
-#### Player Rotation
+### Player Rotation
 
 For each edge the player is on the left and right axis changes.
 
-![Four Axes] [four-axes]
+![Four Axes] [four-axes]{:class="image fit"}
 
 Because of this, instead of having the player object move left and right with respect to world space, I instead set the input to move left and right with respect to the player. This lets me be sure that the player object will always move left when the player wants to left and same for moving right. 
 
@@ -302,25 +301,25 @@ void Update () {
 
 That’s how the player rotates around corners and how it looks good too. So why not do something similar for the camera.
 
-#### Camera Rotation
+### Camera Rotation
 
 First step was to satisfy the design requirement of always having the full length of a tower side and the player visible to the camera. I found that is possible using Unity's default camera settings and setting the camera back the same distance from the tower's origin as the length of either of the square tower's sides. 
 
-![Camera Distance From Center] [camera-center-distance]
+![Camera Distance From Center] [camera-center-distance]{:class="image fit"}
 
 This is assuming a 16:9 aspect ratio, as other ratios cut off a bit of the sides of the desired view. I remedied that by adjusting the camera's field of view depending on detected aspect ratio.  
 
 Knowing that __how far the camera should be__ is equivalent to the size of the tower itself, I proceeded to mark the remaining three positions the camera will be through the game on the XZ plane. like the corner triggers, the camera will also follow the player's vertical position throughout play. 
 
-![Camera Waypoints] [camera_waypoints]
+![Camera Waypoints] [camera_waypoints]{:class="image fit"}
 
 Knowing __where the camera is__ on the XZ plane and __where the camera needs to go__ for each edge, I immediately thought of performing the same lerping as with the player's rotation, just on the camera's X and Z positions. But quickly found that would not satisfy the design requirement as previously mentioned. During the camera's movement along a linear path to the next position, you'd lose sight of the player and most of the current playing field, which would be the two edges involved in the rotation. 
 
-![Problem with Linear Camera Movement] [camera-wrong-paths]
+![Problem with Linear Camera Movement] [camera-wrong-paths]{:class="image fit"}
 
 To fix that, I knew I had to keep the camera at the same distance away from the origin at all time during its movement. With constant distance from tower origin and four target locations to hit in mind, movement along a circle quickly came to mind. 
 
-![Camera Movement Axis] [way-above-axis]
+![Camera Movement Axis] [way-above-axis]{:class="image fit"}
 
 I created a relationship between the edge and the angle of a circle on the XZ plane in world space.
 
@@ -403,7 +402,7 @@ By *fun discoveries* I mean bugs. In case that wasn’t apparent. These are just
 [corner-rotations]:         {{ site.url }}/assets/corner-rotations.png
 
 
-[Corner_Switch.cs]:         https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Movement/Object/Corner_Switch.cs
+[CornerSwitch.cs]:         https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Movement/Object/Corner_Switch.cs
 [Corners.cs]:               https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Movement/Object/Corners.cs
 [Utils.cs]:                 https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Utils.cs
 [CameraEdgeMovement.cs]:    https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Camera/CameraEdgeMovement.cs

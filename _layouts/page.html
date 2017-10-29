@@ -1,35 +1,45 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <div id="container">
-      <div class="inner">
+<body>
 
-        {% include header.html %} 
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-        <hr>
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
 
-        <section id="main_content">
-          {{ content }}
-        </section>
+                {% include header.html %}
 
-        {% include footer.html %}
+                <!-- Content -->
+                <section>
+                	<header class="main">
+                		<h1>{{ page.title }}</h1>
+                	</header>
+
+                  <!-- {% if page.image %}
+                	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+                  {% endif %} -->
+
+                  {{ content }}
+                </section>
+              </div>
+          </div>
+
+          {% include sidebar.html %}
 
       </div>
-    </div>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </body>
+      {% include footer.html %}
+
+</body>
 
 </html>

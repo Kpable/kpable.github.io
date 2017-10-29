@@ -1,24 +1,38 @@
+# Site settings
 title: Kpable
-theme: jekyll-theme-tactile
-email: lhryenos@gmail.com
-description: > 
-  Portfolio of a Gameplay Programmer
-twitter_username: Kpable
-github_username:  Kpable
+subtitle: Gameplay Programmer
+email: lhreynos@gmail.com
+# baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
+
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/Kpable
+gitlab_url: 
+googleplus_url: 
+instagram_url:
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/kpable
 
 # Defaults
 defaults:
   -
     scope:
-      path: "" 
-      type: "pages" 
-    values:
-      layout: "home"
-  -
-    scope:
       path: ""
       type: "posts"
     values:
+      layout: page
+      permalink: :categories/:title/
       excerpt_separator: <!--excerpt_end-->    
 
 # Build settings

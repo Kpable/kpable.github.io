@@ -2,26 +2,36 @@
 layout: page
 ---
 
-<h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-
-<section id="main_content">
+<section>
   {{ content }}
 </section>
 
-<!-- <ul class="post-list"> -->
-{% for post in site.posts %}
-	{% unless post.tag == 'project' %}
-		{% if page.category == post.category %}		  
-		    <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-		    <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-		    <hr>
-		    <h2>
-		    	<!-- {{ post.title | escape }} -->
-		        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-		    </h2>
-		  	{{ post.excerpt }}
-	  	{% endif %}
-  	{% endunless %}
-{% endfor %}
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>Game Mechanics</h2>
+  </header>
+  <div class="features">
+    {% assign mechanics = site.posts | where: "categories", page.category %}
 
-<!-- </ul>	 -->
+    {% for post in mechanics %}
+      {% unless post.tags contains "project" %}
+          <article>
+            <span class="icon {{ post.fa_icon }}"></span>
+            <div class="content">
+              <h3>{{ post.title }}</h3>
+              <h4>{{ post.subtitle | default: "" }}</h4>
+              <!-- <a href="{{ post.url }}" class="image fit"><img src="{{ site.url }}/assets/{{ post.image }}" alt="" /></a> -->
+              <!-- <span class="image"><img src="{{ site.url }}/assets/{{ post.image }}" alt="" /></span> -->
+              <p>{{ post.description }}</p>
+              <ul class="actions">
+                <li>
+                  <a href="{{ post.url | relative_url }}" class="button">More</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>
