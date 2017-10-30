@@ -10,7 +10,7 @@ layout: default
 		{% for post in site.posts %}
 			{% if post.tags contains "project" %}
 				<article>
-					<a href="{{ post.url }}" class="image"><img src="{{ site.url }}/assets/{{ post.image }}" alt="" /></a>
+					<a href="{{ post.url }}" class="image"><img src="{{ site.url }}/assets/images/{{post.category}}/{{ post.image }}" alt="" /></a>
 					<h3>{{ post.title }} <em>{{ post.subtitle | default: "" }}</em></h3>
 					<p>{{ post.description }}</p>
 					<ul class="actions">
