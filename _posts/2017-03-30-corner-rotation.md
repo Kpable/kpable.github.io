@@ -392,14 +392,14 @@ By *fun discoveries* I mean bugs. In case that wasn’t apparent. These are just
 
 
 
-[corners]:                  {{ site.url }}/assets/corner.gif
-[camera_waypoints]:         {{ site.url }}/assets/camera_waypoints.png
-[camera-center-distance]:   {{ site.url }}/assets/camera-center-distance.png
-[camera-wrong-paths]:       {{ site.url }}/assets/camera-wrong-paths.png
-[way-above-axis]:           {{ site.url }}/assets/way-above-axis.png
-[four-axes]:                {{ site.url }}/assets/four-axes.png
-[above_axis]:               {{ site.url }}/assets/above_axis.png
-[corner-rotations]:         {{ site.url }}/assets/corner-rotations.png
+[corners]:                  {{ site.url }}/assets/images/artificial-infiltration/corner.gif
+[camera_waypoints]:         {{ site.url }}/assets/images/artificial-infiltration/camera_waypoints.png
+[camera-center-distance]:   {{ site.url }}/assets/images/artificial-infiltration/camera-center-distance.png
+[camera-wrong-paths]:       {{ site.url }}/assets/images/artificial-infiltration/camera-wrong-paths.png
+[way-above-axis]:           {{ site.url }}/assets/images/artificial-infiltration/way-above-axis.png
+[four-axes]:                {{ site.url }}/assets/images/artificial-infiltration/four-axes.png
+[above_axis]:               {{ site.url }}/assets/images/artificial-infiltration/above_axis.png
+[corner-rotations]:         {{ site.url }}/assets/images/artificial-infiltration/corner-rotations.png
 
 
 [CornerSwitch.cs]:         https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Movement/Object/Corner_Switch.cs

@@ -8,7 +8,7 @@
             <h2>Menu</h2>
           </header>
           <ul>
-            <li><a href="{{ '' | absolute_url }}">Homepage</a></li>
+            <li><a href="{{ site.url }}">Homepage</a></li>
             <!-- <li><a href="{{ 'generic.html' | absolute_url }}">Generic</a></li>
             <li><a href="{{ 'elements.html' | absolute_url }}">Elements</a></li> -->
             <li> 
@@ -30,7 +30,7 @@
           </header>
           <!-- <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p> -->
           <ul class="contact">
-            <li class="fa-envelope-o"><a href="">{{ site.email }}</a></li>
+            <li class="fa-envelope-o"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             <!-- <li class="fa-phone">{{ site.phone }}</li>
             <li class="fa-home">{{ site.street_address }}<br />
             {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />

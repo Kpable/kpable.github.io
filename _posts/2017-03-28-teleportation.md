@@ -29,7 +29,7 @@ The destination will need to have an edge associated with it and that edge will 
 
 ---
 
-[teleportation]:            {{ site.url }}/assets/teleportation.gif
+[teleportation]:            {{ site.url }}/assets/images/artificial-infiltration/teleportation.gif
 
 [TeleportTrigger.cs]:       https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Triggers/TeleportTrigger.cs
 [CubeSpace.cs]: 			https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/CubeSpace.cs

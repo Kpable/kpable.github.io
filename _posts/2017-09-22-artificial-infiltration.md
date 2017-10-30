@@ -33,4 +33,4 @@ I wanted to find a team to work with so I signed up at IndieTeamUp back when it 
 ---
 
 
-[level]: {{ site.url }}/assets/level.gif
+[level]: {{ site.url }}/assets/images/artificial-infiltration/level.gif

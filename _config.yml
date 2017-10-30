@@ -4,6 +4,7 @@ subtitle: Gameplay Programmer
 email: lhreynos@gmail.com
 # baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+images_url: /assets/:category
 author:
 street_address: 1234 Somewhere Road
 city: Nashville

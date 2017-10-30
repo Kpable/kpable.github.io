@@ -148,7 +148,7 @@ public static class EnumUtils
     ...
 {% endhighlight %}
 
-[lift-trigger]:         {{ site.url }}/assets/lift-trigger.gif
+[lift-trigger]:         {{ site.url }}/assets/images/artificial-infiltration/lift-trigger.gif
 
 
 [LiftTrigger.cs]:         https://github.com/Kpable/Artificial-Infiltration/blob/master/Scripts/Triggers/LiftTrigger.cs
