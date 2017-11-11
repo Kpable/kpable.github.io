@@ -7,6 +7,8 @@ permalink: :categories
 category: artificial-infiltration
 image: ai.png
 tags: project
+source-link: https://github.com/Kpable/Artificial-Infiltration
+project-link: https://assertivegames.itch.io/artificial-infiltration
 ---
 
 <!-- Description -->

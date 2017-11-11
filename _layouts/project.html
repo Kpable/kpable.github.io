@@ -9,7 +9,7 @@ layout: page
 <!-- Section -->
 <section>
   <header class="major">
-    <h2>Game Mechanics</h2>
+    <h2><s>Struggles!</s> <s>Lessons?</s> Game Mechanics</h2>
   </header>
   <div class="features">
     {% assign mechanics = site.posts | where: "categories", page.category %}
@@ -32,5 +32,23 @@ layout: page
           </article>
       {% endunless %}
     {% endfor %}
+  </div>
+</section>
+
+<hr>
+<!-- Section -->
+<section>
+  <div class="">
+    {% if page.source-link %}
+    <a href="{{page.source-link}}" class="button icon fa-github">Source</a>
+    {% endif %}
+
+    {% if page.project-link %}
+    <a href="{{page.project-link}}" class="button icon fa-gamepad">Project</a>
+    {% endif %}
+
+    {% if page.developer-link %}
+    <a href="{{page.developer-link}}" class="button icon fa-globe">Developer Site</a>
+    {% endif %}
   </div>
 </section>

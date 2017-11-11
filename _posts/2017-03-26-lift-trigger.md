@@ -30,7 +30,6 @@ The force applied will have to be applied to any object that enters the trigger,
 - Alternative to apply larger force in one burst 
 - Added simple method for choosing force direction
 
-
 ---
 
 To account for the unknown regarding number of objects that will be in the trigger simultaneously, I created a list to keep track of the and upon entering the trigger the object, should it contain a physics body will be added to the list.
