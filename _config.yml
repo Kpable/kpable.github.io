@@ -1,9 +1,9 @@
 # Site settings
-title: Kpable
-subtitle: Gameplay Programmer
+title: Lesther Reynoso
+subtitle: Software Engineer
 email: lhreynos@gmail.com
 # baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://kpable.github.io/" # the base hostname & protocol for your site
 images_url: /assets/:category
 author:
 street_address: 1234 Somewhere Road
