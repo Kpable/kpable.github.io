@@ -4,14 +4,12 @@ subtitle: (Unstable Studios)
 layout: project
 description: |
   A first person evironment destruction game. Currently in development.
-permalink: :categories
-category: close-of-business
-image: Close_of_Business.png
+icon: Close_of_Business.png
 tags: project
 source-link: https://github.com/Kpable/Close-Of-Business
 project-link: 
 developer-link: http://unstable-studios.com/
-published: true
+published: false
 
 ---
 

@@ -4,7 +4,7 @@ subtitle: Software Engineer
 email: lhreynos@gmail.com
 # baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://kpable.github.io/" # the base hostname & protocol for your site
-images_url: /assets/:category
+# images_url: /assets/:category
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
@@ -27,14 +27,29 @@ twitter_url: https://twitter.com/kpable
 
 # Defaults
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
       type: "posts"
     values:
       layout: page
       permalink: :categories/:title/
-      excerpt_separator: <!--excerpt_end-->    
+      excerpt_separator: <!--excerpt_end-->
+  - scope:
+      type: "games"
+    values:
+      layout: project
+      permalink: :name
+      mechanic: false
+      image_dir: /images/
+      icon: icon.png
+      excerpt_separator: <!--excerpt_end-->
+  - scope:
+      path: "_games/*/mechanics"
+    values:
+      mechanic: true
+
+collections:
+  games:
+    output: true
 
 # Build settings
 markdown: kramdown

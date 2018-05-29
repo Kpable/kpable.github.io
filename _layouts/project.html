@@ -5,14 +5,48 @@ layout: page
 <section>
   {{ content }}
 </section>
+{% assign gamename = page.title | slugify %}
+{% assign mechanics = site.games | where: "game", gamename %}
 
+<!--  
+{% if page.screenshots != empty %}
+  <div class="row 50% uniform"> 
+    {% for screenshot in page.screenshots %}
+
+      <div class="4u">
+        <span class="image fit">
+          <img src="{{ site.url }}/assets/images/{{page.category}}/{{ screenshot }}" alt="" />
+        </span>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+-->
+
+{% assign gameData = site.data.games %}
+
+
+{% if page.screenshots != empty %}
+  <div class="row 50% uniform"> 
+    {% for screenshot in page.screenshots %}
+      <div class="4u">
+        <span class="image fit">
+          <img src="games/{{ page.title | slugify }}/{{ page.image_dir }}/{{ screenshot }}" alt="" />
+        </span>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+{% unless mechanics == empty %}
 <!-- Section -->
+</br>
 <section>
   <header class="major">
     <h2><s>Struggles!</s> <s>Lessons?</s> Game Mechanics</h2>
   </header>
   <div class="features">
-    {% assign mechanics = site.posts | where: "categories", page.category %}
 
     {% for post in mechanics %}
       {% unless post.tags contains "project" %}
@@ -32,10 +66,13 @@ layout: page
           </article>
       {% endunless %}
     {% endfor %}
+
   </div>
 </section>
 
+
 <hr>
+{% endunless %}
 <!-- Section -->
 <section>
   <div class="">

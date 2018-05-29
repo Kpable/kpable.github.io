@@ -4,13 +4,11 @@ subtitle:
 layout: project
 description: |
   This website.
-permalink: :categories
-category: kpable.github.io
-image: homepage-screenshot.png
+icon: homepage-screenshot.png
 tags: project
 source-link: https://github.com/Kpable/kpable.github.io
 project-link: https://kpable.github.io
-published: true
+published: false
 ---
 
 <!-- Description -->

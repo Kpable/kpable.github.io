@@ -1,17 +1,19 @@
 ---
-title: Close Of Business
-subtitle: (Unstable Studios)
+title: Second Example Game
+subtitle: (Kpable Games)
 layout: project
 description: |
-  A first person evironment destruction game. Currently in development.
-permalink: :categories
-category: close-of-business
-image: Close_of_Business.png
+  A Second example game to continue to test a new site directory structure. Currently in development.
 tags: project
-source-link: https://github.com/Kpable/Close-Of-Business
+source-link: 
 project-link: 
-developer-link: http://unstable-studios.com/
-published: true
+developer-link: 
+published: false
+screenshots:
+  - screenshot1.png
+  - screenshot2.png
+  - screenshot3.png	
+  - screenshot4.png	
 
 ---
 
@@ -37,4 +39,4 @@ Some of the members I worked with on a previous project (Artificial Infiltration
 ---
 
 
-[image]: {{ site.url }}/assets/images/close-of-business/Close_of_Business.png
+[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
