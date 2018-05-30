@@ -14,9 +14,10 @@
             <li> 
               <span class="opener">Works</span>
               <ul>
-                {% assign projects = site.posts | where: "tags", "project" %}
-                {% for project in projects %}
-                  <li><a href="{{ project.url }}"> {{ project.title }}</a></li>
+                {% for game in site.games %}
+                  {% unless game.mechanic %}
+                    <li><a href="{{ game.url }}"> {{ game.title }}</a></li>  
+                  {% endunless %}
                 {% endfor %}
               </ul>
             </li>
