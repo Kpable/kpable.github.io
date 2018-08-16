@@ -9,8 +9,6 @@
           </header>
           <ul>
             <li><a href="{{ site.url }}">Homepage</a></li>
-            <!-- <li><a href="{{ 'generic.html' | absolute_url }}">Generic</a></li>
-            <li><a href="{{ 'elements.html' | absolute_url }}">Elements</a></li> -->
             <li> 
               <span class="opener">Works</span>
               <ul>
@@ -21,6 +19,7 @@
                 {% endfor %}
               </ul>
             </li>
+            <li><a href="{{ site.baseurl }}{% link development.md %}">Development</a></li>
           </ul>
         </nav>
 
