@@ -9,7 +9,7 @@ tags: project
 source-link: https://github.com/Kpable/Close-Of-Business
 project-link: 
 developer-link: http://unstable-studios.com/
-published: false
+published: true
 
 ---
 

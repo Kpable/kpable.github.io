@@ -1,6 +1,6 @@
 ---
-title: Example Game
-subtitle: (Kpable Games)
+title: Blade of Time
+subtitle: (Kenney Jam)
 layout: project
 description: |
   An example game to test a new site directory structure. Currently in development.

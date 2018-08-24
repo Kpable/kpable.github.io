@@ -1,6 +1,6 @@
 ---
-title: Example Game
-subtitle: (Kpable Games)
+title: Movers Inc
+subtitle: (Ludem Dare 42)
 layout: project
 description: |
   An example game to test a new site directory structure. Currently in development.
@@ -11,9 +11,7 @@ developer-link:
 published: true
 screenshots:
   - screenshot1.png
-  - screenshot2.png
-  - screenshot3.png	
-# - screenshot4.png	
+
 
 ---
 

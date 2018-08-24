@@ -1,6 +1,6 @@
 ---
-title: Example Game
-subtitle: (Kpable Games)
+title: Dimensional Rift Escape
+subtitle: (Ludem Dare 41)
 layout: project
 description: |
   An example game to test a new site directory structure. Currently in development.

@@ -1,9 +1,9 @@
 ---
-title: Example Game
-subtitle: (Kpable Games)
+title: Neighbor
+subtitle: (TBA Studios)
 layout: project
 description: |
-  An example game to test a new site directory structure. Currently in development.
+  TBA Studios’s Neighbor is a 2D-style narrative game that emphasizes the delicate nature of showing kindness to the people around you. The game’s story revolves around a main character who just wants to go home and rest. As he climbs up to his top floor apartment he encounters other residents in the building. You can choose to get to know them and help them when they seek assistance. Be careful though, trying to help too many people could have an adverse effect on your own well-being.
 tags: project
 source-link: 
 project-link: 
@@ -11,9 +11,6 @@ developer-link:
 published: true
 screenshots:
   - screenshot1.png
-  - screenshot2.png
-  - screenshot3.png	
-# - screenshot4.png	
 
 ---
 

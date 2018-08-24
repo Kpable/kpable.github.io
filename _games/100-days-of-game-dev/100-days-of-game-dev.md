@@ -1,5 +1,5 @@
 ---
-title: Example Game
+title: 100 Days of Game Dev
 subtitle: (Kpable Games)
 layout: project
 description: |
@@ -11,9 +11,7 @@ developer-link:
 published: true
 screenshots:
   - screenshot1.png
-  - screenshot2.png
-  - screenshot3.png	
-# - screenshot4.png	
+
 
 ---
 

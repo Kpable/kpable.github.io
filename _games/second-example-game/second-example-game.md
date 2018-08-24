@@ -8,7 +8,7 @@ tags: project
 source-link: 
 project-link: 
 developer-link: 
-published: false
+published: true
 screenshots:
   - screenshot1.png
   - screenshot2.png

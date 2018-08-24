@@ -7,6 +7,7 @@ icon: ai.png
 tags: project
 source-link: https://github.com/Kpable/Artificial-Infiltration
 project-link: https://assertivegames.itch.io/artificial-infiltration
+top3: true
 ---
 
 <!-- Description -->

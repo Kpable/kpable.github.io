@@ -8,7 +8,7 @@ icon: icon.png
 tags: project
 source-link: 
 project-link: 
-published: false
+published: true
 ---
 
 <!-- Description -->

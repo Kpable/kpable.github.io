@@ -4,11 +4,11 @@ subtitle:
 layout: project
 description: |
   This website.
-icon: homepage-screenshot.png
+# icon: homepage-screenshot.png
 tags: project
 source-link: https://github.com/Kpable/kpable.github.io
 project-link: https://kpable.github.io
-published: false
+published: true
 ---
 
 <!-- Description -->
@@ -29,4 +29,5 @@ published: false
 ---
 
 
-[image]: {{ site.url }}/assets/images/project-category/image.png
+<!-- [image]: {{ site.url }}/assets/images/project-category/image.png -->
+[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
