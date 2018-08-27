@@ -7,13 +7,15 @@ layout: default
     <h2>Works</h2>
   </header>
   <div class="posts">
-  {% for game in site.games %}
+  {% assign games = site.games | sort: 'date' | reversed %}
+  {% for game in games %}
     {% unless game.mechanic %}
         <article>
           <a href="{{ game.url }}" class="image"><img src="games/{{ game.title | slugify }}/{{ game.image_dir }}{{ game.icon }}" alt="" /></a>
           <h3>{{ game.title }} <em>{{ game.subtitle | default: "" }}</em></h3>
           <p>{{ game.description }}</p>
           <!--
+          <br> date: {{ game.date }}
           <br> name: {{ game.name }}
           <br> dir: {{ game.directory }}
           <br> col dir: {{ site.games.directory }}

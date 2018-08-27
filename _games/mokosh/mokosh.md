@@ -3,14 +3,19 @@ title: Mokosh
 subtitle: (Roc Game Dev Jam)
 layout: project
 description: |
-  An example game to test a new site directory structure. Currently in development.
+  This game was a collaborative effort for Roc Game Dev Game Jam with the theme of "Growth" in which you play as Mokosh, Guardian Spirit of Nature in a nature themed platformer.  
 tags: project
 source-link: 
-project-link: 
+project-link: https://kpable.itch.io/mokosh
 developer-link: 
 published: true
 screenshots:
-  - screenshot1.png
+  - 1.gif
+  - 2.gif
+  - 4.gif
+  - 6.gif
+  - 7.gif
+  - 11.gif
 ---
 
 <!-- Description -->
@@ -18,9 +23,13 @@ screenshots:
 
 ---
 
-## What I'm doing 
+## What I Did
 
-I am the Lead Programmer, working closely with the designer on the functionaly and code development.
+With enough programmers on the team I bravely stepped forth to pursue a non programming interest, yet still game development related, in **Pixel Art!**
+
+Thats right! I did a lot of pixel art (maybe wrote one or two lines of code here or there, what can I say, couldn't resist). I also oversaw the integration effort, managing branches and making sure merges happened without too much trouble. 
+
+Using Aesprite, a tool I have wanted to get familiar with for quite some time, I drew up the tiles for the maps and some miscellaneous items, like clouds, rocks, leaves. 
 
 
 ![Image] [image]{:class="image fit"}
@@ -29,8 +38,7 @@ I am the Lead Programmer, working closely with the designer on the functionaly a
 
 ## How this project came to be
 
-Some of the members I worked with on a previous project (Artificial Infiltration) wanted to continue working on games together and since I like doing that, I continued my work with them.
-
+Roc Game Dev Game Jam with the theme of "Growth". 
 
 ---
 

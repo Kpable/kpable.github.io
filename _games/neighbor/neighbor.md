@@ -3,9 +3,9 @@ title: Neighbor
 subtitle: (TBA Studios)
 layout: project
 description: |
-  TBA Studios’s Neighbor is a 2D-style narrative game that emphasizes the delicate nature of showing kindness to the people around you. The game’s story revolves around a main character who just wants to go home and rest. As he climbs up to his top floor apartment he encounters other residents in the building. You can choose to get to know them and help them when they seek assistance. Be careful though, trying to help too many people could have an adverse effect on your own well-being.
+  A 2D-style narrative game that emphasizes the delicate nature of showing kindness to the people around you. The game’s story revolves around a main character who just wants to go home and rest after a long work day. As he climbs up to his top floor apartment he encounters other residents in the building. With each encounter theres a choice to get to know them and help them when they seek assistance. However, trying to help too many people could have adverse effects.
 tags: project
-source-link: 
+source-link: https://github.com/Zedjones/Neighbor 
 project-link: 
 developer-link: 
 published: true
@@ -21,8 +21,7 @@ screenshots:
 
 ## What I'm doing 
 
-I am the Lead Programmer, working closely with the designer on the functionaly and code development.
-
+I am a Lead Programmer, generating system level design for integration by other team members. As well as integrating features.
 
 ![Image] [image]{:class="image fit"}
 
@@ -30,7 +29,7 @@ I am the Lead Programmer, working closely with the designer on the functionaly a
 
 ## How this project came to be
 
-Some of the members I worked with on a previous project (Artificial Infiltration) wanted to continue working on games together and since I like doing that, I continued my work with them.
+IThrives Game Jam event with a theme of "Kindness" hosted at Rochester Institute of Technology.
 
 
 ---

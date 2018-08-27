@@ -3,14 +3,13 @@ title: MCLSCal
 subtitle: (Roc Hack Hackathon)
 layout: project
 description: |
-  An example game to test a new site directory structure. Currently in development.
+  Web Application that allows Rochesterians to select a subset of libraries closest to them in the Monroe County Library System and generate an ical that can be subscribed to. The events the libraries have posted are added to the user's personal calendars.
 tags: project
-source-link: 
-project-link: 
-developer-link: 
+source-link: https://github.com/585-software/mclscal 
+project-link: https://mclscal.herokuapp.com/
+developer-link: https://devpost.com/software/mclscal
 published: true
-screenshots:
-  - screenshot1.png
+#screenshots:
 ---
 
 <!-- Description -->
@@ -18,9 +17,11 @@ screenshots:
 
 ---
 
-## What I'm doing 
+## What I Did
 
-I am the Lead Programmer, working closely with the designer on the functionaly and code development.
+Learned how to generate a ruby on rails web application, created some services that would perform specific functions, and tests that would test those services. 
+
+Specific services include the generation of the request that would be made to retrieve event data from the Monroe County Library System and integration of an Icalendar library that would take the user selected libraries and generate a custom ICal link that can subscribed to. 
 
 
 ![Image] [image]{:class="image fit"}
@@ -29,10 +30,12 @@ I am the Lead Programmer, working closely with the designer on the functionaly a
 
 ## How this project came to be
 
-Some of the members I worked with on a previous project (Artificial Infiltration) wanted to continue working on games together and since I like doing that, I continued my work with them.
+Spur of the moment decision to participate in the [Roc Dev Civic Hackathon] in which over the course of four weeks my team and I would utilize freely availble data sets to build an app that would impact and help the community. 
 
 
 ---
 
 
 [image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+
+[Roc Dev Civic Hackathon]: https://roc-hacks.devpost.com/

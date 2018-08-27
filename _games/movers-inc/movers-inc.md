@@ -3,14 +3,19 @@ title: Movers Inc
 subtitle: (Ludem Dare 42)
 layout: project
 description: |
-  An example game to test a new site directory structure. Currently in development.
+  Game jam entry with a theme of "Running out of space". An Overcooked inspired prototype in which you continuously get incoming packages and have to place as much as you can in the apartment.
 tags: project
-source-link: 
-project-link: 
+source-link: https://github.com/Kpable/Moving-In
+project-link: https://kpable.itch.io/moving-in
 developer-link: 
 published: true
 screenshots:
-  - screenshot1.png
+  - present.gif
+  - furniture-partial-invalid-editor.gif
+  - validation.gif
+  - furniture-partial-invalid.gif
+  - big-plant.gif
+  - rotating-collision-detection.gif
 
 
 ---
@@ -20,9 +25,11 @@ screenshots:
 
 ---
 
-## What I'm doing 
+## What I Did
 
-I am the Lead Programmer, working closely with the designer on the functionaly and code development.
+I spent far too much time on validation of the placement types. Let me step back. This game was inspired by the gameplay of Overcooked in which it is top down and you run around trying to put stuff places. This was my third Ludem Dare Jam and I had hoped i planned small enough ammount of work to get a nice looking prototype by the end of it. Still havent quite figured out jam scoping but I'll get there. 
+
+I wanted to try out Magica Voxel as well, since it's a really cool looking voxel editor and so I decided voxel art was my approach for this game. 
 
 
 ![Image] [image]{:class="image fit"}
@@ -31,8 +38,9 @@ I am the Lead Programmer, working closely with the designer on the functionaly a
 
 ## How this project came to be
 
-Some of the members I worked with on a previous project (Artificial Infiltration) wanted to continue working on games together and since I like doing that, I continued my work with them.
+Ludem Dare 43 with theme of "Running out of Space", Playing Overcooked, wanting to try out Magica Voxel.  
 
+New thing i started doing during jams is [progress shots](https://github.com/Kpable/LDJam42/blob/develop/Screenshots/Display.md). 
 
 ---
 
