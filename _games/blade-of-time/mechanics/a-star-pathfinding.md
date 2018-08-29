@@ -1,5 +1,4 @@
 ---
-category: blade-of-time
 fa_icon: fa-pause
 description: |
   Implement A* pathfinding from a Graph of Nodes. 

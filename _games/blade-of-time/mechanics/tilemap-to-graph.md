@@ -1,5 +1,4 @@
 ---
-category: blade-of-time
 fa_icon: fa-pause
 description: |
   Convert Unity Tilemap to a Graph of Nodes. 
