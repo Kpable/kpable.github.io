@@ -4,14 +4,22 @@ subtitle: (TBA Studios)
 layout: project
 description: |
   A 2D-style narrative game that emphasizes the delicate nature of showing kindness to the people around you. The game’s story revolves around a main character who just wants to go home and rest after a long work day. As he climbs up to his top floor apartment he encounters other residents in the building. With each encounter theres a choice to get to know them and help them when they seek assistance. However, trying to help too many people could have adverse effects.
-tags: project
-source-link: https://github.com/Zedjones/Neighbor 
-project-link: 
-developer-link: 
+tags: [game jam, team, Unity, Godot]
 published: true
 screenshots:
-  - screenshot1.png
-
+links:
+- label: "Godot Source"
+  url: https://github.com/Zedjones/Neighbor 
+  icon: "fa-github"
+- label: "Unity Proto Source"
+  url: https://github.com/TadeoM/TBAStudios
+  icon: "fa-github"
+- label: "Project"
+  url: https://tbastudios.itch.io/neighbor
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: 
+  icon: "fa-globe"
 ---
 
 <!-- Description -->

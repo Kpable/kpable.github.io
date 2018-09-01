@@ -35,7 +35,6 @@ layout: page
   <div class="features">
 
     {% for post in mechanics %}
-      {% unless post.tags contains "project" %}
           <article>
             <span class="icon {{ post.fa_icon }}"></span>
             <div class="content">
@@ -50,16 +49,28 @@ layout: page
               </ul>
             </div>
           </article>
-      {% endunless %}
     {% endfor %}
 
   </div>
 </section>
 <hr>
 {% endunless %}
+
+{% unless page.links == empty %}
 <!-- Section -->
 <section>
   <div class="">
+    {% for link in page.links %}
+      {%  if link.url  %}
+        <a href="{{ link.url }}" class="button icon {{ link.icon }}">{{ link.label }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% endunless %}
+
+<!-- 
     {% if page.source-link %}
     <a href="{{page.source-link}}" class="button icon fa-github">Source</a>
     {% endif %}
@@ -71,5 +82,4 @@ layout: page
     {% if page.developer-link %}
     <a href="{{page.developer-link}}" class="button icon fa-globe">Developer Site</a>
     {% endif %}
-  </div>
-</section>
+     -->

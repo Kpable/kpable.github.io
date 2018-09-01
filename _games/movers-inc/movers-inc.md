@@ -4,10 +4,7 @@ subtitle: (Ludem Dare 42)
 layout: project
 description: |
   Game jam entry with a theme of "Running out of space". An Overcooked inspired prototype in which you continuously get incoming packages and have to place as much as you can in the apartment.
-tags: project
-source-link: https://github.com/Kpable/Moving-In
-project-link: https://kpable.itch.io/moving-in
-developer-link: 
+tags: [Ludem Dare, game jam, unity, magica voxel, voxel art]
 published: true
 screenshots:
   - present.gif
@@ -16,7 +13,16 @@ screenshots:
   - furniture-partial-invalid.gif
   - big-plant.gif
   - rotating-collision-detection.gif
-
+links:
+- label: "Source"
+  url: https://github.com/Kpable/Moving-In
+  icon: "fa-github"
+- label: "Project"
+  url: https://kpable.itch.io/moving-in
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: 
+  icon: "fa-globe"
 
 ---
 

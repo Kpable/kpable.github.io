@@ -4,10 +4,18 @@ layout: project
 description: |
   Navigate maze towers in a 2.5D fashion, collecting keys, unlocking doors, and taking teleporters as needed to reach the top.
 icon: ai.png
-tags: project
-source-link: https://github.com/Kpable/Artificial-Infiltration
-project-link: https://assertivegames.itch.io/artificial-infiltration
+tags: [unity, team, 2.5D, platformer, maze]
 top3: true
+links:
+- label: "Source"
+  url: https://github.com/Kpable/Artificial-Infiltration
+  icon: "fa-github"
+- label: "Project"
+  url: https://assertivegames.itch.io/artificial-infiltration
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: 
+  icon: "fa-globe"
 ---
 
 <!-- Description -->

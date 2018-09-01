@@ -3,8 +3,8 @@ title: 100 Days of Game Dev
 subtitle: (Round 1)
 layout: scrolling-mechanics
 description: |
-  A personal challenge to have an organized fun way of nagivating through my game development curiousities. 
-tags: project
+  A personal challenge to have an organized fun way of nagivating through my game development curiousities. I set out to collect myself and go through my ever growing list of game development interests one at a time. Each day I made some progress towards investigating a subject of interest. Doing some work to study or implement a quick idea. 
+tags: [unity]
 source-link: https://github.com/Kpable/100-days-of-game-dev
 project-link: https://github.com/Kpable/100-days-of-game-dev/blob/master/log.md
 developer-link: 
@@ -17,6 +17,16 @@ screenshots:
   - arrive.gif
   - flee.gif
 top3: true
+links:
+- label: "Source"
+  url: https://github.com/Kpable/100-days-of-game-dev
+  icon: "fa-github"
+- label: "Project"
+  url: https://github.com/Kpable/100-days-of-game-dev/blob/master/log.md
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: 
+  icon: "fa-globe"
 ---
 
 <!-- Description -->
@@ -26,7 +36,7 @@ top3: true
 
 ## What I did
 
-I set out to collect myself and go through my ever growing list of game development interests one at a time. Each day I made some progress towards investigating a subject of interest. Doing some work to study or implement a quick idea. 
+
 
 <a name="toc"></a>
 ### Table of Contents 

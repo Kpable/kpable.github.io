@@ -16,6 +16,17 @@ screenshots:
   - 6.gif
   - 7.gif
   - 11.gif
+links:
+- label: "Source"
+  url: 
+  icon: "fa-github"
+- label: "Project"
+  url: https://kpable.itch.io/mokosh
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: 
+  icon: "fa-globe"
+
 ---
 
 <!-- Description -->
@@ -31,14 +42,9 @@ Thats right! I did a lot of pixel art (maybe wrote one or two lines of code here
 
 Using Aesprite, a tool I have wanted to get familiar with for quite some time, I drew up the tiles for the maps and some miscellaneous items, like clouds, rocks, leaves. 
 
+(I did not create the character, she's cool though.)
 
 ![Image] [image]{:class="image fit"}
-
-<!--excerpt_end-->
-
-## How this project came to be
-
-Roc Game Dev Game Jam with the theme of "Growth". 
 
 ---
 

@@ -21,8 +21,9 @@ Still working with [Programming Game AI by Example](https://www.amazon.com/Progr
 **Examples**: 
 
 #### Obstacle Avoidance
-![Obstacle Avoidance Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day17-sb-obstacle-avoidance/avoidance.gif)  
+![Obstacle Avoidance Behavior](https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day17-sb-obstacle-avoidance/avoidance.gif)
  -->
+
 **Link(s) to work**: [Github](https://github.com/Kpable/Kpable-Labs/tree/misc/steering-behavior/Assets/Misc/Steering%20Behaviors)
 
 [Table of Contents](#toc)

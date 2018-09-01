@@ -5,12 +5,20 @@ layout: project
 description: |
   A first person evironment destruction game where as an Indie developer, you sneak into your competing game studio and break all the things.
 icon: Close_of_Business.png
-tags: project
+tags: [unity, 3d, first person, enrionment destruction, team]
 source-link: https://github.com/Kpable/Close-Of-Business
-project-link: 
 published: true
-#developer-link: http://unstable-studios.com/
 
+links:
+- label: "Source"
+  url: https://github.com/Kpable/Close-Of-Business
+  icon: "fa-github"
+- label: "Project"
+  url: 
+  icon: "fa-gamepad"
+- label: "Developer Site"
+#  url: http://unstable-studios.com/
+  icon: "fa-globe"
 ---
 
 <!-- Description -->

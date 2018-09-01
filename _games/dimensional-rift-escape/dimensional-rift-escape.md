@@ -3,15 +3,20 @@ title: Dimensional Rift Escape
 subtitle: (Ludem Dare 41)
 layout: project
 description: |
-  Game jam entry with theme of "Combine two incompatible genres". Chosen genres "Shmup" and "Escape Room".
-tags: project
-source-link: https://github.com/Kpable/Dimensional-Rift-Escape
-project-link: https://kpable.itch.io/dimensional-rift-escape
-developer-link: 
+  Ludem Dare 41 game jam entry with theme of "Combine two incompatible genres". Chosen genres "Shmup" and "Escape Room".
+tags: [Ludem Dare, game jam, unity, shmup, escape room, puzzle]
 published: true
 screenshots:
-  - screenshot1.png
-
+links:
+- label: "Source"
+  url: https://github.com/Kpable/Dimensional-Rift-Escape
+  icon: "fa-github"
+- label: "Project"
+  url: https://kpable.itch.io/dimensional-rift-escape
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: 
+  icon: "fa-globe"
 ---
 
 <!-- Description -->

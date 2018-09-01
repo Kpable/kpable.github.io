@@ -5,16 +5,22 @@ layout: project
 description: |
   An example game to test a new site directory structure. Currently in development.
 tags: project
-source-link: 
-project-link: 
-developer-link: 
 published: true
 screenshots:
   - screenshot1.png
   - screenshot2.png
   - screenshot3.png	
 # - screenshot4.png	
-
+links:
+- label: "Source"
+  url: https://github.com/Kpable/Performance-Review
+  icon: "fa-github"
+- label: "Project"
+  url: https://github.com/Kpable/Performance-Review
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: 
+  icon: "fa-globe"
 ---
 
 <!-- Description -->

@@ -4,12 +4,19 @@ subtitle: (Roc Hack Hackathon)
 layout: project
 description: |
   Web Application that allows Rochesterians to select a subset of libraries closest to them in the Monroe County Library System and generate an ical that can be subscribed to. The events the libraries have posted are added to the user's personal calendars.
-tags: project
-source-link: https://github.com/585-software/mclscal 
-project-link: https://mclscal.herokuapp.com/
-developer-link: https://devpost.com/software/mclscal
+tags: [web development, ruby on rails, hackathon]
 published: true
-#screenshots:
+screenshots:
+links:
+- label: "Source"
+  url: https://github.com/585-software/mclscal 
+  icon: "fa-github"
+- label: "Project"
+  url: https://mclscal.herokuapp.com/
+  icon: "fa-gamepad"
+- label: "Developer Site"
+  url: https://devpost.com/software/mclscal
+  icon: "fa-globe"
 ---
 
 <!-- Description -->
