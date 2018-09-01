@@ -28,16 +28,11 @@ links:
 I am the Lead Programmer, working closely with the designer on the functionality and code development.
 
 
-![Image] [image]{:class="image fit"}
-
-<!--excerpt_end-->
+<!-- ![Image] [image]{:class="image fit"} -->
 
 ## How this project came to be
 
 Some of the members I worked with on a previous project (Artificial Infiltration) wanted to continue working on games together and since I like doing that, I continued my work with them.
-
-
----
 
 
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

@@ -27,15 +27,12 @@ links:
 
 I implemented some Shmup mechanics. Tried to implement some escape room puzzles. 
 
-![Image] [image]{:class="image fit"}
-
-<!--excerpt_end-->
+<!-- ![Image] [image]{:class="image fit"} -->
 
 ## How this project came to be
 
 I participated in the Ludem Dare 41 game jam. The jam had a difficult theme but I chose to try my had at implementing a Shmup game with an escape room like theme. 
 
 
----
 
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

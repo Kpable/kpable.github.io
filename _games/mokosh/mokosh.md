@@ -34,15 +34,12 @@ links:
 
 With enough programmers on the team I bravely stepped forth to pursue a non programming interest, yet still game development related, in **Pixel Art!**
 
-Thats right! I did a lot of pixel art (maybe wrote one or two lines of code here or there, what can I say, couldn't resist). I also oversaw the integration effort, managing branches and making sure merges happened without too much trouble. 
+That's right! I did a lot of pixel art (maybe wrote one or two lines of code here or there, what can I say, couldn't resist). I also oversaw the integration effort, managing branches and making sure merges happened without too much trouble. 
 
 Using Aesprite, a tool I have wanted to get familiar with for quite some time, I drew up the tiles for the maps and some miscellaneous items, like clouds, rocks, leaves. 
 
 (I did not create the character, she's cool though.)
 
-![Image] [image]{:class="image fit"}
-
----
-
+<!-- ![Image] [image]{:class="image fit"} -->
 
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

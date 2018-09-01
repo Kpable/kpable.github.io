@@ -10,6 +10,41 @@ layout: page
 
 {% assign gameData = site.data.games %}
 
+{% unless mechanics == empty %}
+  <!-- Section -->
+  </br>
+  <section>
+    <!-- <header class="major"> -->
+      <h3><s>Struggles!</s> <s>Lessons?</s> Game Mechanics</h3>
+    <!-- </header> -->
+    <div class="features">
+
+      {% for post in mechanics %}
+        <article>
+          <!-- <span class="icon {{ post.fa_icon }}"></span> -->
+          <div class="content">
+            <h3>{{ post.title }}</h3>
+            <!-- <a href="{{ post.url }}" class="image fit"><img src="{{ site.url }}/assets/{{ post.image }}" alt="" /></a> -->
+            <!-- <span class="image"><img src="{{ site.url }}/assets/{{ post.image }}" alt="" /></span> -->
+            <p>{{ post.description }}</p>
+            {% if post.more == true %}
+              <ul class="actions">
+                <li>
+                  <a href="{{ post.url | relative_url }}" class="button">More</a>
+                </li>
+              </ul>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+
+    </div>
+  </section>
+
+{% endunless %}
+
+
+<img src="{{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}{{ page.feature }}" class="image fit" />
 
 {% if page.screenshots and page.screenshots != empty %}
   <div class="row 50% uniform"> 
@@ -23,38 +58,6 @@ layout: page
   </div>
   <hr>
 {% endif %}
-
-
-{% unless mechanics == empty %}
-<!-- Section -->
-</br>
-<section>
-  <header class="major">
-    <h2><s>Struggles!</s> <s>Lessons?</s> Game Mechanics</h2>
-  </header>
-  <div class="features">
-
-    {% for post in mechanics %}
-          <article>
-            <span class="icon {{ post.fa_icon }}"></span>
-            <div class="content">
-              <h3>{{ post.title }}</h3>
-              <!-- <a href="{{ post.url }}" class="image fit"><img src="{{ site.url }}/assets/{{ post.image }}" alt="" /></a> -->
-              <!-- <span class="image"><img src="{{ site.url }}/assets/{{ post.image }}" alt="" /></span> -->
-              <p>{{ post.description }}</p>
-              <ul class="actions">
-                <li>
-                  <a href="{{ post.url | relative_url }}" class="button">More</a>
-                </li>
-              </ul>
-            </div>
-          </article>
-    {% endfor %}
-
-  </div>
-</section>
-<hr>
-{% endunless %}
 
 {% unless page.links == empty %}
 <!-- Section -->

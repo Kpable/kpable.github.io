@@ -23,17 +23,7 @@ links:
 
 ---
 
-## What I did
 
-
-![Image] [image]{:class="image fit"}
-
-<!--excerpt_end-->
-
-## How this project came to be
-
-
----
-
+<!-- ![Image] [image]{:class="image fit"} -->
 
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

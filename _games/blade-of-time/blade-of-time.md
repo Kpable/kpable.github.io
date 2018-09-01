@@ -31,9 +31,8 @@ links:
 I found out about the Itch.io [Kenney Jam](https://itch.io/jam/kenney-jam-2018) and asked a friend if he wanted to join it with me. With a team of 2 and a couple days, I inadvertantly spent too much time implementing a Unity Tilemap to a node graph converter that can be pass a graph to a path finding algorithm. As well as implementing that path finding algorithm. I implemented A* pathfinding which is something on my list of game development curiosities. I also took breaks from that to implement some menu navigation and UI functionality. 
 
 
-![Image] [image]{:class="image fit"}
+<!-- ![Image] [image]{:class="image fit"} -->
 
----
 
 
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

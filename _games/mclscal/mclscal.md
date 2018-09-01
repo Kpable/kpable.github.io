@@ -30,9 +30,7 @@ Learned how to generate a ruby on rails web application, created some services t
 Specific services include the generation of the request that would be made to retrieve event data from the Monroe County Library System and integration of an Icalendar library that would take the user selected libraries and generate a custom ICal link that can subscribed to. 
 
 
-![Image] [image]{:class="image fit"}
-
-<!--excerpt_end-->
+<!-- ![Image] [image]{:class="image fit"} -->
 
 ## How this project came to be
 

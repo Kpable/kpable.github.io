@@ -36,14 +36,12 @@ I spent far too much time on validation of the placement types. Let me step back
 
 I wanted to try out Magica Voxel as well, since it's a really cool looking voxel editor and so I decided voxel art was my approach for this game. 
 
-
-![Image] [image]{:class="image fit"}
-
-<!--excerpt_end-->
-
 New thing I started doing during jams is [progress shots](https://github.com/Kpable/LDJam42/blob/develop/Screenshots/Display.md). 
 
----
+<!-- ![Image] [image]{:class="image fit"} -->
+
+
+
 
 
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

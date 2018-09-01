@@ -14,7 +14,7 @@ links:
   url: https://github.com/TadeoM/TBAStudios
   icon: "fa-github"
 - label: "Project"
-  url: https://tbastudios.itch.io/neighbor
+  #url: https://tbastudios.itch.io/neighbor
   icon: "fa-gamepad"
 - label: "Developer Site"
   url: 
@@ -30,16 +30,11 @@ links:
 
 I am a Lead Programmer, generating system level design for integration by other team members. As well as integrating features.
 
-![Image] [image]{:class="image fit"}
-
-<!--excerpt_end-->
+<!-- ![Image] [image]{:class="image fit"} -->
 
 ## How this project came to be
 
 IThrives Game Jam event with a theme of "Kindness" hosted at Rochester Institute of Technology.
-
-
----
 
 
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
