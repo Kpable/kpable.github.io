@@ -6,7 +6,6 @@ description: |
   This website. Created with Jekyll and Github Pages.
 # icon: homepage-screenshot.png
 tags: [web development, jekyll, ruby, markdown]
-published: true
 links:
 - label: "Source"
   url: https://github.com/Kpable/kpable.github.io

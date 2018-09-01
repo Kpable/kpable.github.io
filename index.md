@@ -4,7 +4,7 @@ layout: default
 <!-- Section -->
 <section>
   <header class="major">
-    <h2>Works</h2>
+    <h2>Featured Works</h2>
   </header>
   <div class="posts">
   {% for game in site.games %}
@@ -21,5 +21,8 @@ layout: default
       {% endif %}
     {% endunless %}
   {% endfor %}
+  </div>
+  <div>
+    <a href="{{ site.url }}/works" class="button primary small fit">More Works</a>
   </div>
 </section>

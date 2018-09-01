@@ -5,7 +5,6 @@ layout: scrolling-mechanics
 description: |
   A personal challenge to have an organized fun way of nagivating through my game development curiousities. I set out to collect myself and go through my ever growing list of game development interests one at a time. Each day I made some progress towards investigating a subject of interest. Doing some work to study or implement a quick idea. 
 tags: [unity]
-published: true
 top3: true
 links:
 - label: "Source"

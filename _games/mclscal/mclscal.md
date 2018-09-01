@@ -5,7 +5,6 @@ layout: project
 description: |
   Web Application that allows Rochesterians to select a subset of libraries closest to them in the Monroe County Library System and generate an ical that can be subscribed to. The events the libraries have posted are added to the user's personal calendars.
 tags: [web development, ruby on rails, hackathon]
-published: true
 screenshots:
 links:
 - label: "Source"

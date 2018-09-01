@@ -4,8 +4,7 @@ subtitle: (Kenney Jam)
 layout: project
 description: |
   Kenney Game Jam submission with the theme of "Time Travel". Top Down 2D rougelite in which the roguelike mechanic of growing through death was translated to the player running out of time to stop the final boss and the sword unleashing its power to rewind time back 5 minutes, retaining all experience it gathers.
-tags: project
-published: true
+tags: [game jam, team]
 screenshots:
   - tilemap-to-node-graph.gif
   - astar.gif

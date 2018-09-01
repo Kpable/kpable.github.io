@@ -5,7 +5,7 @@ layout: project
 description: |
   An example game to test a new site directory structure. Currently in development.
 tags: [game, test, development]
-published: true
+published: false
 screenshots:
   - screenshot1.png
   - screenshot2.png

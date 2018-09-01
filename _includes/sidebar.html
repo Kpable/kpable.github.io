@@ -14,9 +14,7 @@
               <ul>
                 {% for game in site.games %}
                   {% unless game.mechanic %}
-                    {% if game.top3 %}
                     <li><a href="{{ game.url }}"> {{ game.title }}</a></li>  
-                    {% endif %}
                   {% endunless %}
                 {% endfor %}
               </ul>

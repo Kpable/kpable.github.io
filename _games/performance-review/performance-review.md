@@ -3,14 +3,9 @@ title: Performance Review
 subtitle: (Ludem Dare 40)
 layout: project
 description: |
-  An example game to test a new site directory structure. Currently in development.
+  Ludem Dare 40 game jam entry with theme of "the more you have the worse it gets".
 tags: project
-published: true
 screenshots:
-  - screenshot1.png
-  - screenshot2.png
-  - screenshot3.png	
-# - screenshot4.png	
 links:
 - label: "Source"
   url: https://github.com/Kpable/Performance-Review

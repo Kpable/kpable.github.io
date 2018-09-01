@@ -5,7 +5,6 @@ layout: project
 description: |
   Ludem Dare 43 Game jam entry with a theme of "Running out of space". An Overcooked inspired prototype in which you continuously get incoming packages and have to place as much as you can in the apartment.
 tags: [Ludem Dare, game jam, unity, magica voxel, voxel art]
-published: true
 screenshots:
   - present.gif
   - furniture-partial-invalid-editor.gif
