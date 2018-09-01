@@ -39,4 +39,4 @@ I participated in the Ludem Dare 41 game jam. The jam had a difficult theme but 
 ---
 
 
-[feature-image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[feature-image]: {{ site.baseurl }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
