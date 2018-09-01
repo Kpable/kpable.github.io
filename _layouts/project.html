@@ -11,12 +11,12 @@ layout: page
 {% assign gameData = site.data.games %}
 
 
-{% if page.screenshots != empty %}
+{% if page.screenshots and page.screenshots != empty %}
   <div class="row 50% uniform"> 
     {% for screenshot in page.screenshots %}
       <div class="4u">
         <span class="image fit">
-          <img src="games/{{ page.title | slugify }}/{{ page.image_dir }}/{{ screenshot }}" alt="" />
+          <img src="{{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}/{{ screenshot }}" alt="" />
         </span>
       </div>
     {% endfor %}
@@ -69,17 +69,3 @@ layout: page
 </section>
 
 {% endunless %}
-
-<!-- 
-    {% if page.source-link %}
-    <a href="{{page.source-link}}" class="button icon fa-github">Source</a>
-    {% endif %}
-
-    {% if page.project-link %}
-    <a href="{{page.project-link}}" class="button icon fa-gamepad">Project</a>
-    {% endif %}
-
-    {% if page.developer-link %}
-    <a href="{{page.developer-link}}" class="button icon fa-globe">Developer Site</a>
-    {% endif %}
-     -->

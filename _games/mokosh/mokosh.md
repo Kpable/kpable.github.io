@@ -49,4 +49,4 @@ Using Aesprite, a tool I have wanted to get familiar with for quite some time, I
 ---
 
 
-[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

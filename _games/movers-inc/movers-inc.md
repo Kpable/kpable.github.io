@@ -3,7 +3,7 @@ title: Movers Inc
 subtitle: (Ludem Dare 42)
 layout: project
 description: |
-  Game jam entry with a theme of "Running out of space". An Overcooked inspired prototype in which you continuously get incoming packages and have to place as much as you can in the apartment.
+  Ludem Dare 43 Game jam entry with a theme of "Running out of space". An Overcooked inspired prototype in which you continuously get incoming packages and have to place as much as you can in the apartment.
 tags: [Ludem Dare, game jam, unity, magica voxel, voxel art]
 published: true
 screenshots:
@@ -42,13 +42,9 @@ I wanted to try out Magica Voxel as well, since it's a really cool looking voxel
 
 <!--excerpt_end-->
 
-## How this project came to be
-
-Ludem Dare 43 with theme of "Running out of Space", Playing Overcooked, wanting to try out Magica Voxel.  
-
-New thing i started doing during jams is [progress shots](https://github.com/Kpable/LDJam42/blob/develop/Screenshots/Display.md). 
+New thing I started doing during jams is [progress shots](https://github.com/Kpable/LDJam42/blob/develop/Screenshots/Display.md). 
 
 ---
 
 
-[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

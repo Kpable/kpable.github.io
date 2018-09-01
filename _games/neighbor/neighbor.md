@@ -43,4 +43,4 @@ IThrives Game Jam event with a theme of "Kindness" hosted at Rochester Institute
 ---
 
 
-[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

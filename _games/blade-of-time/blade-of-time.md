@@ -37,4 +37,4 @@ I found out about the Itch.io [Kenney Jam](https://itch.io/jam/kenney-jam-2018) 
 ---
 
 
-[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

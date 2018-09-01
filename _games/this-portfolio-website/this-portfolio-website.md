@@ -38,4 +38,4 @@ links:
 
 
 <!-- [image]: {{ site.url }}/assets/images/project-category/image.png -->
-[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

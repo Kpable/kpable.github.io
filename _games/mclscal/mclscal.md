@@ -43,6 +43,6 @@ Spur of the moment decision to participate in the [Roc Dev Civic Hackathon] in w
 ---
 
 
-[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
 
 [Roc Dev Civic Hackathon]: https://roc-hacks.devpost.com/

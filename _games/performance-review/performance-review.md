@@ -45,4 +45,4 @@ Some of the members I worked with on a previous project (Artificial Infiltration
 ---
 
 
-[image]: games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

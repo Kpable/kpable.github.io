@@ -1,4 +1,5 @@
 ---
+category: artificial-infiltration
 game: artificial-infiltration
 fa_icon: fa-retweet
 description: |
