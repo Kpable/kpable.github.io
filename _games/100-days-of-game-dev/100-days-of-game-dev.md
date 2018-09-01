@@ -34,10 +34,6 @@ links:
 
 ---
 
-## What I did
-
-
-
 <a name="toc"></a>
 ### Table of Contents 
 

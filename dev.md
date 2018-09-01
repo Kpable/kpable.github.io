@@ -13,6 +13,11 @@ layout: default
         <article>
           <a href="{{ game.url }}" class="image"><img src="games/{{ game.title | slugify }}/{{ game.image_dir }}{{ game.icon }}" alt="" /></a>
           <h3>{{ game.title }} <em>{{ game.subtitle | default: "" }}</em></h3>
+          <!--
+          {% for tag in game.tags %}
+            <span class="button small">{{ tag }}</span>
+          {% endfor %}
+          -->
           <p>{{ game.description }}</p>
           <!--
           <br> date: {{ game.date }}
