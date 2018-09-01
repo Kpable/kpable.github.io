@@ -32,7 +32,7 @@ links:
 
 ## What I Did
 
-I spent far too much time on validation of the placement types. Let me step back. This game was inspired by the gameplay of Overcooked in which it is top down and you run around trying to put stuff places. This was my third Ludem Dare Jam and I had hoped i planned small enough ammount of work to get a nice looking prototype by the end of it. Still havent quite figured out jam scoping but I'll get there. 
+I spent far too much time on validation of the placement types. Let me step back. This game was inspired by the gameplay of Overcooked in which it is top down and you run around trying to put stuff places. This was my third Ludem Dare Jam and I had hoped i planned small enough amount of work to get a nice looking prototype by the end of it. Still haven't quite figured out jam scoping but I'll get there. 
 
 I wanted to try out Magica Voxel as well, since it's a really cool looking voxel editor and so I decided voxel art was my approach for this game. 
 

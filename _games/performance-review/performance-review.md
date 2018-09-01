@@ -25,7 +25,7 @@ links:
 
 ## What I'm doing 
 
-I am the Lead Programmer, working closely with the designer on the functionaly and code development.
+I am the Lead Programmer, working closely with the designer on the functionality and code development.
 
 
 ![Image] [image]{:class="image fit"}

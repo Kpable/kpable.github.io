@@ -36,5 +36,4 @@ links:
 ---
 
 
-<!-- [image]: {{ site.url }}/assets/images/project-category/image.png -->
 [image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
