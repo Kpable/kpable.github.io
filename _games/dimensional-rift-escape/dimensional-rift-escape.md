@@ -27,7 +27,7 @@ links:
 
 I implemented some Shmup mechanics. Tried to implement some escape room puzzles. 
 
-![Image] [feature-image]{:class="image fit"}
+![Image] [image]{:class="image fit"}
 
 <!--excerpt_end-->
 
@@ -39,4 +39,4 @@ I participated in the Ludem Dare 41 game jam. The jam had a difficult theme but 
 ---
 
 
-[feature-image]: {{ site.baseurl }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
