@@ -29,18 +29,8 @@ feature: Close_of_Business.png
 
 ## What I Did 
 
-I was the Lead Programmer, working closely with the designer on the functionality and code development.
-
-
-<!-- ![Image] [image]{:class="image fit"} -->
-
-
-## How this project came to be
-
 Some of the members I worked with on a previous project ([Artificial Infiltration]) wanted to continue working on games together and since I like doing that, I continued my work with them.
 
-
-
-[image]: {{ site.url }}/assets/images/close-of-business/Close_of_Business.png
+I was the Lead Programmer for this game as well but with a smaller team I found myself working more with the designer on the design of the game and how best to implement functionality.
 
 [Artificial Infiltration]: {{site.url}}/works/artificial-infiltration
