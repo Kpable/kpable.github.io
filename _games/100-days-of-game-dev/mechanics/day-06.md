@@ -1,5 +1,5 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 images: 
 - label: Meteor Splitting up
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/meteor-splitting.gif
@@ -8,6 +8,7 @@ images:
 - label: Passing the Params Along
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day6-splitter-behavior/split-function.gif
 ---
+
 <a name="day-6"></a>
 ### Day 6: Splitter Behavior (Environmental Hazard)
 #### June 29, 2018 

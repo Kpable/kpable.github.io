@@ -1,5 +1,5 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 images: 
 - label: Spread Wepons Originating from Surrounding Objects
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day7-weapons-refactoring/weapons-refactored.gif

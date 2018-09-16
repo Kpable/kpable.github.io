@@ -1,5 +1,5 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 ---
 <a name="day-18"></a>
 ### Day ?: 

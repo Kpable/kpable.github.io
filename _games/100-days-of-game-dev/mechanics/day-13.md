@@ -1,5 +1,5 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 images: 
 - label: Arrive Behavior
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day13-sb-arrive/arrive.gif

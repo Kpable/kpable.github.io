@@ -1,7 +1,7 @@
 ---
 fa_icon: fa-pause
 description: |
-  Convert Unity Tilemap to a Graph of Nodes. 
+  Took a predefined area of Unity Tilemap layers to generate a graph of nodes using one layer to identify the navigable nodes and another to identify the colliders on those nodes. 
 game: blade-of-time
 more: false
 ---

@@ -1,9 +1,10 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 images: 
 - label: Obstacle Avoidance
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day17-sb-obstacle-avoidance/avoidance.gif
 ---
+
 <a name="day-17"></a>
 ### Day 17: Steering Behavior - Obstacle Avoidance 
 #### July 10, 2018 

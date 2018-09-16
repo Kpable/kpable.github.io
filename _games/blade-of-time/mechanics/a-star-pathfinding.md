@@ -1,7 +1,7 @@
 ---
 fa_icon: fa-pause
 description: |
-  Implement A* pathfinding from a Graph of Nodes. 
+  Implemented A* path finding taking in a graph of nodes and iterating through them to generate a list of points for the enemy to follow towards the player. 
 game: blade-of-time
 more: false
 ---
@@ -29,6 +29,8 @@ more: false
 ---
 
 ### The Short and Sweet of it
+
+A fun discovery was when i tried to run while running the algorithm every update on 5 enemies. Quick to learn that wouldnt work out every frame the way i implemented it. 
 
 
 [Sebastian Lague's A* Video]: https://youtu.be/-L-WgKMFuhE

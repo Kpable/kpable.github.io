@@ -1,5 +1,5 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 images: 
 - label: Flee Behavior
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day14-sb-flee/flee.gif

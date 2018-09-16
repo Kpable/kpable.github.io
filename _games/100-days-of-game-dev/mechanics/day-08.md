@@ -1,5 +1,5 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 images: 
 - label: Parallax Effect
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day8-parallax-backgrounds/parallax.gif

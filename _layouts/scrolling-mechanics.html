@@ -45,19 +45,19 @@ layout: page
 </section>
 
 {% endunless %}
+
 <!-- Section -->
+{% unless page.links == empty %}
 <section>
   <div class="">
-    {% if page.source-link %}
-    <a href="{{page.source-link}}" class="button icon fa-github">Source</a>
-    {% endif %}
-
-    {% if page.project-link %}
-    <a href="{{page.project-link}}" class="button icon fa-gamepad">Project</a>
-    {% endif %}
-
-    {% if page.developer-link %}
-    <a href="{{page.developer-link}}" class="button icon fa-globe">Developer Site</a>
-    {% endif %}
+    {% for link in page.links %}
+      {%  if link.url  %}
+        <a href="{{ link.url }}" class="button icon {{ link.icon }}">{{ link.label }}</a>
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
+
+{% endunless %}
+
+

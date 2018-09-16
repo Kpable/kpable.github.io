@@ -1,11 +1,12 @@
 ---
-game: 100-days-of-game-dev
+game: 100-days-of-game-development
 images: 
 - label: Evade Behavior
   link: https://raw.githubusercontent.com/kpable/100-days-of-game-dev/master/images/day15-sb-evade/evade.gif
 ---
+
 <a name="day-15"></a>
-### Day 15: Steeriing Behaviors - Evade
+### Day 15: Steering Behaviors - Evade
 #### July 8, 2018 
 
 **Today's Focus**: Steering Behaviors - Evade
