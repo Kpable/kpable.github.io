@@ -23,7 +23,7 @@ title: 100daysform
 
   <h3>Examples</h3>
   <div id="examples" class="12u">
-    <div id="example-group" class="row">
+    <div id="example-group1" class="row">
       <div class="4u">
         <input type="text" name="example-name" id="example-name" value="" placeholder="example-name" />
       </div>
@@ -41,7 +41,7 @@ title: 100daysform
 
   <h3>Links To Work</h3>
   <div id="links" class="12u" >
-    <div id="link-group" class="row">
+    <div id="link-group1" class="row">
       <div class="4u">
         <input type="text" name="link-name" id="link-name" value="" placeholder="link-name" />
       </div>
@@ -56,5 +56,8 @@ title: 100daysform
       <div id="new-link-button" class="button icon fa-plus ">  </div>
     </div>
   </div>
+
+  <div id="generate" class="button 12u"> Generate </div>
+
 </div>
 
