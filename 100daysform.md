@@ -31,11 +31,11 @@ title: 100daysform
         <input type="url" name="link" id="link" value="" placeholder="link" />
       </div>
       <div class="1u">
-        <div class="button icon fa-minus ">  </div>
+        <div id="remove-example-group" class="button icon fa-minus ">  </div>
       </div>
     </div>
     <div class="1u">
-      <div class="button icon fa-plus ">  </div>
+      <div id="new-example-button" class="button icon fa-plus ">  </div>
     </div>
   </div>
 
@@ -53,7 +53,8 @@ title: 100daysform
       </div>
     </div>
     <div class="1u">
-      <div class="button icon fa-plus ">  </div>
+      <div id="new-link-button" class="button icon fa-plus ">  </div>
     </div>
   </div>
 </div>
+
