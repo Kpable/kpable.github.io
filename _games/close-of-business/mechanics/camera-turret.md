@@ -1,8 +1,7 @@
 ---
 category: close-of-business
-fa_icon: fa-pause
 description: |
-  A system to create and track missions for the player. Snatch and grab missions, hunt and destroy missions, object planting, and escape missions. 
+  Camera turret equipped with detection cone, rotation cycle, attack turrets, and designer friendly considerations.  
 game: close-of-business
 more: false
 ---

@@ -22,8 +22,3 @@ links:
 {{ page.description }}
 
 ---
-
-
-<!-- ![Image] [image]{:class="image fit"} -->
-
-[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png

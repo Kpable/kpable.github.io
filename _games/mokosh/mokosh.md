@@ -6,7 +6,7 @@ description: |
   This game was a collaborative effort for Roc Game Dev Game Jam with the theme of "Growth" in which you play as Mokosh, Guardian Spirit of Nature in a nature themed platformer.  
 tags: [pixel art, game jam, team]
 screenshots:
-  - 1.gif
+  - 8.gif
   - 2.gif
   - 4.gif
   - 6.gif

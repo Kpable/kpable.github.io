@@ -2,7 +2,7 @@
 category: movers-inc
 fa_icon: fa-pause
 description: |
-  Validating the object being carried can be placed. 
+  Validating the object being carried can be placed on four placeable types of on the floor, on furniture, on the wall, or on a shelf. Validation by verifying every voxel unit adjacent to object is of the valid placeable type. 
 game: movers-inc
 more: false
 ---

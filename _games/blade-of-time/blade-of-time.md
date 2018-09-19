@@ -13,7 +13,7 @@ links:
 - label: "Source"
   url: https://github.com/Kpable/Blade-of-Time
   icon: "fa-github"
-- label: "Project"
+- label: "Play"
   url: https://kpable.itch.io/blade-of-time
   icon: "fa-gamepad"
 - label: "Developer Site"
@@ -26,7 +26,7 @@ links:
 
 ---
 
-## What I did
+## What I Did
 
 I found out about the Itch.io [Kenney Jam](https://itch.io/jam/kenney-jam-2018) and asked a friend if he wanted to join it with me. With a team of 2 and a couple days, I inadvertently spent too much time implementing a Unity Tilemap to a node graph converter that can be pass a graph to a path finding algorithm. As well as implementing that path finding algorithm. I implemented A* path finding which is something on my list of game development curiosities. I also took breaks from that to implement some menu navigation and UI functionality. 
 

@@ -1,8 +1,7 @@
 ---
 category: close-of-business
-fa_icon: fa-pause
 description: |
-  A system to create and track missions for the player. Snatch and grab missions, hunt and destroy missions, object planting, and escape missions. 
+  Made objects in the world interactable to the player, elevator buttons, switches, wieldable objects and more. Who doesnt like messing with stuff in first person games.
 game: close-of-business
 more: false
 ---

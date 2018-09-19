@@ -1,9 +1,8 @@
 ---
-category: close-of-business
 fa_icon: fa-pause
 description: |
-  A system to create and track missions for the player. Snatch and grab missions, hunt and destroy missions, object planting, and escape missions. 
-game: close-of-business
+  Implement a pass code system that can be inputted by shooting runic panels in the right order.  
+game: dimensional-rift-escape
 more: false
 ---
 
@@ -12,7 +11,6 @@ more: false
 {{ page.description }}
 
 ## Development Considerations
-
 
 ![Game Pausing] [pause]{:class="image fit"}
 
@@ -29,3 +27,4 @@ more: false
 ---
 
 ### The Short and Sweet of it
+

@@ -1,8 +1,7 @@
 ---
 category: close-of-business
-fa_icon: fa-pause
 description: |
-  A system to create and track missions for the player. Snatch and grab missions, hunt and destroy missions, object planting, and escape missions. 
+  Created an elevator system with button panel to access four different floors. Equipped with some cool door closing and opening logic. 
 game: close-of-business
 more: false
 ---

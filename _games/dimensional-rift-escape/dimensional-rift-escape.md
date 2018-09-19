@@ -10,7 +10,7 @@ links:
 - label: "Source"
   url: https://github.com/Kpable/Dimensional-Rift-Escape
   icon: "fa-github"
-- label: "Project"
+- label: "Play"
   url: https://kpable.itch.io/dimensional-rift-escape
   icon: "fa-gamepad"
 - label: "Developer Site"
@@ -23,16 +23,6 @@ links:
 
 ---
 
-## What I did
+## What I Did
 
-I implemented some Shmup mechanics. Tried to implement some escape room puzzles. 
-
-<!-- ![Image] [image]{:class="image fit"} -->
-
-## How this project came to be
-
-I participated in the Ludem Dare 41 game jam. The jam had a difficult theme but I chose to try my had at implementing a Shmup game with an escape room like theme. 
-
-
-
-[image]: {{ site.url }}/games/{{ page.title | slugify }}/{{ page.image_dir }}feature.png
+I implemented some Shmup mechanics. Tried to implement some escape room puzzles. This was my second Ludem Dare and I tried to learn from my previous ambitions goals and better scope what I was trying to do. Little did I know that escape room and puzzle design in general requires a bit more time to get right and further implement than the time alloted over a weekend.  

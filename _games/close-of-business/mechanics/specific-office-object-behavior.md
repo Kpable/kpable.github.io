@@ -1,8 +1,7 @@
 ---
 category: close-of-business
-fa_icon: fa-pause
 description: |
-  A system to create and track missions for the player. Snatch and grab missions, hunt and destroy missions, object planting, and escape missions. 
+  Interesting behaviors like linking monitors to desktops and desktops to routers and showing specific error messages on screen when one or the other fails. Flickering lights when damaged, projectors that shut off when damaged, sliding wheelie chairs, and  nuclear coffee mugs that explode on contact. You know, normal office items. 
 game: close-of-business
 more: false
 ---

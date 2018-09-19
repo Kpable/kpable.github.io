@@ -10,7 +10,7 @@ links:
 - label: "Source"
   url: https://github.com/Kpable/Artificial-Infiltration
   icon: "fa-github"
-- label: "Project"
+- label: "Play"
   url: https://assertivegames.itch.io/artificial-infiltration
   icon: "fa-gamepad"
 - label: "Developer Site"

@@ -6,7 +6,7 @@ description: |
   My workspace, where I play around with ideas, draft quick prototypes, do some tutorials, or just test a bit of code.
 icon: icon.png
 tags: [game development, ]
-published: true
+published: false
 screenshots:
 links:
 - label: "Source"

@@ -2,7 +2,7 @@
 category: close-of-business
 fa_icon: fa-pause
 description: |
-  Pause the game to allow the player to either change settings, restart, or quit. 
+  Made nearly every object in the world destructible. Giving health to everything and performing an object swap with an identical broken up version and applying physics to the pieces. Can't have a destructible environment game without being able to smash everything. 
 game: close-of-business
 more: false
 ---
