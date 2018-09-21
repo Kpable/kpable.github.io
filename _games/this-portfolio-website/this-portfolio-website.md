@@ -22,5 +22,5 @@ links:
 
 ---
 
-Initially I did not want to get back into web development to create this portfolio but the more I worked with Jekyll the more interested I became. So this became a living project for me. I see many opportunities for improvement the main focus here is displaying the work I've done not creating the most efficient website. 
+Initially I did not want to get back into web development to create this portfolio but the more I worked with Jekyll the more interested I became. So this became a living project for me. I see many opportunities for improvement but the main focus here is displaying the work I've done not creating the most efficient website. 
 
