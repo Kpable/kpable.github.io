@@ -6,6 +6,7 @@ description: |
   Ludem Dare 41 game jam entry with theme of "Combine two incompatible genres". Chosen genres "Shmup" and "Escape Room".
 tags: [Ludem Dare, game jam, unity, shmup, escape room, puzzle]
 screenshots:
+feature: icon.png
 links:
 - label: "Source"
   url: https://github.com/Kpable/Dimensional-Rift-Escape
