@@ -35,17 +35,6 @@ defaults:
       permalink: :categories/:title/
       excerpt_separator: <!--excerpt_end-->
   - scope:
-      type: "games"
-    values:
-      layout: project
-      permalink: works/:name
-      mechanic: false
-      top3: false
-      image_dir: /images/
-      icon: icon.png
-      feature: feature.png
-      excerpt_separator: <!--excerpt_end-->
-  - scope:
       path: "_games/*/mechanics"
     values:
       permalink: works/:categories/:name

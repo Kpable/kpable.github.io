@@ -56,5 +56,35 @@ order: 2
 
 
   <div class="row">
-    
+  {% for game in site.games %}
+    {% unless game.mechanic %}
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="{{ game.url }}" class="image"><img src="{{ site.url }}/games/{{ game.title | slugify }}/{{ game.image_dir }}{{ game.icon }}" alt="" /></a>
+        <h3>{{ game.title }} <em>{{ game.subtitle | default: "" }}</em></h3>
+        <p>{{ game.description }}</p>
+        <header>
+          <a href="{{ game.url }}" class="button">More</a>
+        </header>
+      </div>
+    </div>
+    {% endunless %}
+  {% endfor %}
   </div>
+
+<!--   <div class="row">
+  {% for game in site.data.works %}
+    {% unless game.mechanic %}
+    <div class="4u 12u$(mobile)">
+      <div class="item">
+        <a href="{{ game.url }}" class="image"><img src="{{ site.url }}/games/{{ game.title | slugify }}/{{ game.image_dir }}{{ game.icon }}" alt="" /></a>
+        <h3>{{ game.title }} <em>{{ game.subtitle | default: "" }}</em></h3>
+        <p>{{ game.description }}</p>
+        <header>
+          <a href="{{- _games.url | absolute_url -}}" class="button">More</a>
+        </header>
+      </div>
+    </div>
+    {% endunless %}
+  {% endfor %}
+  </div> -->

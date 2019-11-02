@@ -40,7 +40,7 @@ email: lhreynos@gmail.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Social settings
@@ -61,4 +61,29 @@ google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
-collections: [sections]
+collections: 
+  sections:
+  games:
+    output: true
+
+
+
+# Defaults
+defaults:
+  - scope:
+      type: "games"
+    values:
+      layout: page
+      permalink: works/:name
+      mechanic: false
+      top3: false
+      image_dir: /images/
+      icon: icon.png
+      feature: feature.png
+      excerpt_separator: <!--excerpt_end-->
+  - scope:
+      path: "_games/*/mechanics"
+    values:
+      permalink: works/:categories/:name
+      mechanic: true
+      more: true
