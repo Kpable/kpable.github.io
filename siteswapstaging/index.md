@@ -1,0 +1,45 @@
+---
+layout: splash
+permalink: /
+date: 2016-03-23T11:48:41-04:00
+intro: 
+  - excerpt: 'Hey! I''m **Lesther**!'
+feature_row:
+  - image_path: assets/images/heavy-is-the-crown-game-icon.png
+    alt: "heavy-is-the-crown-game-icon"
+    title: "Heavy Is The Crown"
+    excerpt: "Maintain the flock. Maintain your home."
+    url: "https://possumhousegames.itch.io/heavy-is-the-crown"
+  - image_path: /assets/images/the-door-within-game-icon.png
+    alt: "the-door-within-game-icon"
+    title: "The Door Within"
+    excerpt: ""
+    url: "https://kpable.itch.io/the-door-within"
+  - image_path: /assets/images/out-of-order-game-icon.png
+    alt: "out-of-order-game-icon"
+    title: "Out Of Order"
+    excerpt: "It's up to V3n-D0 to complete vending orders... too bad everthing is broken"
+    url: "https://thomasmrigney.itch.io/out-of-order"
+  - image_path: /assets/images/oof-what-a-drag-game-icon.png
+    alt: "oof-what-a-drag-game-icon"
+    title: "Oof What a Drag"
+    excerpt: ""
+    url: "https://kpable.itch.io/oof-what-a-drag"
+  - image_path: /assets/images/activate-the-laser-game-icon.png
+    alt: "activate-the-laser-game-icon"
+    title: "Activate The Laser"
+    excerpt: "Push the buttons! Activate the Laser!"
+    url: "https://kpable.itch.io/activate-the-laser"
+  - image_path: /assets/images/turn-me-on-game-icon.png
+    alt: "turn-me-on-game-icon"
+    title: "Turn Me On"
+    excerpt: "Push the right buttons in the right order."
+    url: "https://kpable.itch.io/turn-me-on"
+
+---
+
+![lesther-banner]({{ site.url }}{{ site.baseurl }}/assets/images/Lesther-Banner.jpg)
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
