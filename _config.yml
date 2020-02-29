@@ -75,9 +75,9 @@ author:
   location         : "Rochester"
   email            : "lhreynos@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:lhreynos@gmail.com
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: mailto:lhreynos@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://lestherreynoso.com"
