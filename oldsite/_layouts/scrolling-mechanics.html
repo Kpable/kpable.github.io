@@ -1,0 +1,63 @@
+---
+layout: page
+---
+
+<section>
+  {{ content }}
+</section>
+{% assign gamename = page.title | slugify %}
+{% assign mechanics = site.games | where: "game", gamename | reverse %}
+
+{% assign gameData = site.data.games %}
+
+{% unless mechanics == empty %}
+<!-- Section -->
+</br>
+<section>
+  <header class="major">
+    <h2><s>Struggles!</s> <s>Lessons?</s> Game Mechanics</h2>
+  </header>
+
+
+  <div class="row">
+    {% for post in mechanics %}
+      {% unless post.tags contains "project" %}
+          <div class="12u">
+            {% unless post.images == empty %}
+              <!-- <span class="image {% cycle 'left', 'right' %}"> -->
+              <span class="image right %}">
+                {% for image in post.images %}
+                  <b>{{ image.label }}</b>
+                  <img src="{{ image.link }}" alt="{{ image.label }}"/>
+                </br>
+                {% endfor %}
+              </span>
+            {% endunless %}
+
+            {{ post.content | markdownify }}
+          
+          </div>
+        <hr class="12u">
+      {% endunless %}
+    {% endfor %}
+  </div>
+
+</section>
+
+{% endunless %}
+
+<!-- Section -->
+{% unless page.links == empty %}
+<section>
+  <div class="">
+    {% for link in page.links %}
+      {%  if link.url  %}
+        <a href="{{ link.url }}" class="button icon {{ link.icon }}">{{ link.label }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% endunless %}
+
+
