@@ -31,12 +31,16 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 
-theme: minimal-mistakes-jekyll
+# Plugins (previously gems:)
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
