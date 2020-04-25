@@ -13,6 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+minimal_mistakes_skin: default
+#search: true
 
 
 # Site Settings
@@ -26,21 +28,18 @@ url                      : https://kpable.github.io # the base hostname & protoc
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kpable/kpable.github.io"
 
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /recent/page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -54,18 +53,31 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude: 
+    - oldsite
+    - siteswapstaging
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Site Author
 author:
   name             : "Lesther Reynoso"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am a **Kpable** person."
   location         : "Rochester"
   email            : "lhreynos@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:lhreynos@gmail.com
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: mailto:lhreynos@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://lestherreynoso.com"
@@ -106,6 +118,17 @@ footer:
 
 
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -114,4 +137,9 @@ defaults:
       layout: single
       author_profile: true
 
-exclude: [oldsite]
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
