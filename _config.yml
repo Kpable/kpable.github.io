@@ -24,7 +24,7 @@ title_separator          : "-"
 subtitle                 : "A Software Engineer"
 name                     : &name "Lesther Reynoso" # &name is a YAML anchor which can be *referenced later
 description              : &description "Portfolio of a software engineer/game developer."
-url                      : https://kpable.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://lestherreynoso.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kpable/kpable.github.io"
 
