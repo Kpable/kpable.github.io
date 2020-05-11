@@ -70,7 +70,7 @@ plugins:
 # Site Author
 author:
   name             : "Lesther Reynoso"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png"
   bio              : "I am a **Kpable** person."
   location         : "Rochester"
   email            : "lhreynos@gmail.com"
