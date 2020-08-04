@@ -97,15 +97,18 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://kpable.itch.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/kpable"
+      # url: "https://twitter.com/kpable"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Kpable"
+      # url: "https://github.com/Kpable"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -115,6 +118,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+
 
 
 defaults:
@@ -136,6 +140,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _games  
+  - scope:
+      path: ""
+      type: games
+    values:
+      layout: game
+      author_profile: false
+      share: false
 
 category_archive:
   type: liquid
@@ -143,3 +155,14 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+games_archive:
+  type: liquid
+  path: /games/
+
+
+# Collections
+collections:
+  games:
+    output: true
+    permalink: /:collection/:path/

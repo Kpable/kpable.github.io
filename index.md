@@ -4,12 +4,43 @@ permalink: /
 date: 2016-03-23T11:48:41-04:00
 intro: 
   - excerpt: 'Hey! I''m **Lesther**!'
+header:
+  image: /assets/images/Lesther-Banner.png
 feature_row:
   - image_path: assets/images/heavy-is-the-crown-game-icon.png
     alt: "heavy-is-the-crown-game-icon"
     title: "Heavy Is The Crown"
     excerpt: "Maintain the flock. Maintain your home."
-    url: "https://possumhousegames.itch.io/heavy-is-the-crown"
+    url: "https://possumhousegames.com/games/heavy-is-the-crown/"
+  - image_path: /assets/images/shot-in-the-dark-cover-image.png
+    alt: "shot-in-the-dark-logo"
+    title: "Shot in the Dark"
+    excerpt: "Teeth in the dark.."
+    url: "https://possumhousegames.com/games/shot-in-the-dark/"
+  - image_path: /assets/images/they-seek-the-lamp-cover-image.png
+    alt: "they-seek-the-lamp-cover-image"
+    title: "They Seek the Lamp"
+    excerpt: "The light.. it beckons.."
+    url: "https://possumhousegames.itch.io/they-seek-the-lamp"
+
+
+---
+
+<!-- ![lesther-banner]({{ site.url }}{{ site.baseurl }}/assets/images/Lesther-Banner.png)
+{: .align-center} -->
+
+Hey! I'm **Lesther**!
+{: .text-center}
+
+{% include feature_row %}
+
+More at: 
+{: style="text-align: center;"}
+
+[ITCH.IO](https://kpable.itch.io/){: .btn .btn--inverse .btn--x-large}
+{: style="text-align: center;"}
+
+<!-- 
   - image_path: /assets/images/the-door-within-game-icon.png
     alt: "the-door-within-game-icon"
     title: "The Door Within"
@@ -34,12 +65,4 @@ feature_row:
     alt: "turn-me-on-game-icon"
     title: "Turn Me On"
     excerpt: "Push the right buttons in the right order."
-    url: "https://kpable.itch.io/turn-me-on"
-
----
-
-![lesther-banner]({{ site.url }}{{ site.baseurl }}/assets/images/Lesther-Banner.jpg)
-
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
+    url: "https://kpable.itch.io/turn-me-on" -->
