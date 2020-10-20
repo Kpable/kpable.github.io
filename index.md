@@ -10,17 +10,17 @@ feature_row:
   - image_path: assets/images/heavy-is-the-crown-game-icon.png
     alt: "heavy-is-the-crown-game-icon"
     title: "Heavy Is The Crown"
-    excerpt: "Maintain the flock. Maintain your home."
+    excerpt: "A 2D top down game of heart wrenching resource management"
     url: "https://possumhousegames.com/games/heavy-is-the-crown/"
   - image_path: /assets/images/shot-in-the-dark-cover-image.png
     alt: "shot-in-the-dark-logo"
     title: "Shot in the Dark"
-    excerpt: "Teeth in the dark.."
+    excerpt: "A 2D pixel platformer set in a black, white, and red world built in the Construct 3 game engine."
     url: "https://possumhousegames.com/games/shot-in-the-dark/"
   - image_path: /assets/images/they-seek-the-lamp-cover-image.png
     alt: "they-seek-the-lamp-cover-image"
     title: "They Seek the Lamp"
-    excerpt: "The light.. it beckons.."
+    excerpt: "A first person pixel art trek through mysterious woods."
     url: "https://possumhousegames.itch.io/they-seek-the-lamp"
 
 

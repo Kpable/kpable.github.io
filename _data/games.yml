@@ -66,6 +66,12 @@ Shot in the Dark:
       image_path: /assets/images/shot-in-the-dark/gargoylemoondone.png
       alt: "placeholder image 1"
       title: ""
+  roles:
+    - Programmer
+    - Project Management
+  responsibilities:
+    - Implemented Steam Achievement
+    - Implement Sound playback and transitioning system
 
 Heavy is the Crown:
   name:  "Heavy is the Crown"
