@@ -20,7 +20,7 @@ feature_row:
   - image_path: /assets/images/they-seek-the-lamp-cover-image.png
     alt: "they-seek-the-lamp-cover-image"
     title: "They Seek the Lamp"
-    excerpt: "A first person pixel art trek through mysterious woods."
+    excerpt: "A first person pixel art trek through mysterious woods in search for a way out."
     url: "https://possumhousegames.itch.io/they-seek-the-lamp"
 
 
