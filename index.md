@@ -4,8 +4,6 @@ permalink: /
 date: 2016-03-23T11:48:41-04:00
 intro: 
   - excerpt: 'Hey! I''m **Lesther**!'
-header:
-  image: /assets/images/Lesther-Banner.png
 feature_row:
   - image_path: assets/images/heavy-is-the-crown-game-icon.png
     alt: "heavy-is-the-crown-game-icon"
@@ -26,8 +24,8 @@ feature_row:
 
 ---
 
-<!-- ![lesther-banner]({{ site.url }}{{ site.baseurl }}/assets/images/Lesther-Banner.png)
-{: .align-center} -->
+![lesther-banner]({{ site.url }}{{ site.baseurl }}/assets/images/Lesther-Banner.png)
+{: .align-center}
 
 Hey! I'm **Lesther**!
 {: .text-center}
