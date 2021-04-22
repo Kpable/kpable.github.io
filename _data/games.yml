@@ -5,67 +5,24 @@ Shot in the Dark:
   video: 53NrGikSnqs
   tagline: Teeth in the dark...
   description: |
-    Shot in the Dark is a classic western tale of bloody vengeance, rituals, and teeth in the dark. Take up the gun of the lone bandit as they stop at nothing in the pursuit of vengeance. The only thing standing between the bandit and their quarry are the occult nightmares lurking in the darkness. From demons to cultists and long dead gunslingers, all manner of foes are arrayed against you.
+    **What I did:** Implemented Steam Achievement, Sound playback and transitioning system, Save Data, Level Select
 
-    Shot in the Dark offers a unique challenge, combining nail biting pixel perfect platforming with precise point and click shooting. But many of the cruel creatures of the night remain hidden in shadow. The bandit will have to be on the lookout for glowing red eyes, shadows moving through the trees, and figures lurking in the night. Because sometimes the only sign of a demon on your trail is the slight movement of the tall grass. And sometimes all you can do is take a shot in the dark.
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://possumhousegames.com/games/shot-in-the-dark/"
-    - label: "Steam"
-      icon: "fab fa-fw fa-steam"
-      url: "https://store.steampowered.com/app/1204940/Shot_in_the_Dark/"
-    - label: "Itch.io"
-      icon: "fab fa-fw fa-itch-io"
-      url: "https://possumhousegames.itch.io/shot-in-the-dark"
-    - label: "Press Kit"
-      icon: "fa fa-fw fa-newspaper"
-      url: "https://possumhousegames.com/press/shot-in-the-dark/index.html"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://possumhousegames.com/games/shot-in-the-dark/"
+
   gallery:
-    - url: /assets/images/shot-in-the-dark/sitd_walk1.gif
-      image_path: /assets/images/shot-in-the-dark/sitd_walk1.gif
-      alt: "placeholder image 1"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/sitd_summon.gif
-      image_path: /assets/images/shot-in-the-dark/sitd_summon.gif
-      alt: "placeholder image 2"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/sitd_walkdown.gif
-      image_path: /assets/images/shot-in-the-dark/sitd_walkdown.gif
-      alt: "placeholder image 3"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/bigredcomingdone.png
-      image_path: /assets/images/shot-in-the-dark/bigredcomingdone.png
-      alt: "placeholder image 1"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/churchexeriorddone.png
-      image_path: /assets/images/shot-in-the-dark/churchexeriorddone.png
-      alt: "placeholder image 2"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/pentagramshootout.png
-      image_path: /assets/images/shot-in-the-dark/pentagramshootout.png
-      alt: "placeholder image 3"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/traincars.png
-      image_path: /assets/images/shot-in-the-dark/traincars.png
-      alt: "placeholder image 2"
-      title: ""
     - url: /assets/images/shot-in-the-dark/traincloud.png
       image_path: /assets/images/shot-in-the-dark/traincloud.png
-      alt: "placeholder image 3"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/trainengine.png
-      image_path: /assets/images/shot-in-the-dark/trainengine.png
-      alt: "placeholder image 1"
-      title: ""
-    - url: /assets/images/shot-in-the-dark/churchinteriordone.png
-      image_path: /assets/images/shot-in-the-dark/churchinteriordone.png
       alt: "placeholder image 3"
       title: ""
     - url: /assets/images/shot-in-the-dark/gargoylemoondone.png
       image_path: /assets/images/shot-in-the-dark/gargoylemoondone.png
       alt: "placeholder image 1"
       title: ""
+  galleryCaption: | 
+      A 2D pixel platformer set in a black, white, and red world built in the Construct 3 game engine.
   roles:
     - Programmer
     - Project Management
@@ -79,29 +36,16 @@ Heavy is the Crown:
   cover_image: /assets/images/heavy-is-the-crown/heavy-is-the-crown-cover-image.png
   video: dDXaM2JzQO8
   tagline: Maintain the flock. Maintain your home.
-  description: |
-    It is up to you to maintain the flock.
+  description: |    
+    **What I did:** Top-down character movement, Character selection, Audio management, Save data management, 2D interaction system, Designer friendly tools
 
-    It is up to you to maintain the home.
-
-    During the day you must contain your flock of sheep by keeping them from wandering off the screen. How many sheep you have left at the end of the day determines how much money you make.
-
-    At the end of the day it is up to you to decide how to spend that money.  Do you buy more sheep? Do you build a fence?  Do you refill the pantry?
-
-    It all depends on you.
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://possumhousegames.com/games/the-sword-and-the-slime/"
-    # - label: "Steam"
-    #   icon: "fab fa-fw fa-steam"
-    #   url: "https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/"
-    - label: "Itch.io"
-      icon: "fab fa-fw fa-itch-io"
-      url: "https://possumhousegames.itch.io/heavy-is-the-crown"
-    - label: "Press Kit"
-      icon: "fa fa-fw fa-newspaper"
-      url: "https://possumhousegames.com/press/heavy-is-the-crown/index.html"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://possumhousegames.com/games/heavy-is-the-crown/"
+    # - label: "Play on Itch"
+    #   icon: "fab fa-fw fa-itch-io"
+    #   url: "https://possumhousegames.itch.io/heavy-is-the-crown"
   gallery:
     - url: /assets/images/heavy-is-the-crown/hitc-cabin.png
       image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
@@ -111,3 +55,62 @@ Heavy is the Crown:
       image_path: /assets/images/heavy-is-the-crown/hitc-field.png
       alt: "placeholder image 2"
       title: ""
+  galleryCaption: | 
+    Top down 2D heart wrenching resource management game built in Unity.
+
+They Seek the Lamp:
+  name:  "They Seek the Lamp"
+  header_image: /assets/images/they-seek-the-lamp/they-seek-the-lamp-cover-image.png
+  cover_image: /assets/images/they-seek-the-lamp/they-seek-the-lamp-cover-image.png
+  video: dDXaM2JzQO8
+  tagline: Maintain the flock. Maintain your home.
+  description: |
+    **What I did:** Lead the project, Set up the environment, Integrated assets, 3D interaction system
+
+    **Fun Fact:** This game was created over a two day period and submitted for CHILL JAM 2, a game jam I co-hosted! 
+
+  links:
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://possumhousegames.itch.io/they-seek-the-lamp"
+  gallery:
+    - url: /assets/images/they-seek-the-lamp/lamp.png
+      image_path: /assets/images/they-seek-the-lamp/lamp.png
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/they-seek-the-lamp/moth.png
+      image_path: /assets/images/they-seek-the-lamp/moth.png
+      alt: "placeholder image 2"
+      title: ""
+  galleryCaption: | 
+    A first person pixel art trek through mysterious woods in search for a way out built in Unity.
+  
+Nine:
+  name:  "Nine (In Development)"
+  header_image: /assets/images/they-seek-the-lamp/they-seek-the-lamp-cover-image.png
+  cover_image: /assets/images/they-seek-the-lamp/they-seek-the-lamp-cover-image.png
+  video: dDXaM2JzQO8
+  tagline: Maintain the flock. Maintain your home.
+  description: |
+    **What I did:** External Tool integration, Entity state machine for player and enemies, Content creation tools, Cinematic System, Dialogue System, Player controller improvements
+  links:
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://possumhousegames.com/games/the-sword-and-the-slime/"
+    # - label: "Steam"
+    #   icon: "fab fa-fw fa-steam"
+    #   url: "https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/"
+    # - label: "Itch.io"
+    #   icon: "fab fa-fw fa-itch-io"
+    #   url: "https://possumhousegames.itch.io/they-seek-the-lamp"
+  gallery:
+    - url: /assets/images/nine/lab-pounce.png
+      image_path: /assets/images/nine/lab-pounce.png
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/nine/armory-swipe.png
+      image_path: /assets/images/nine/armory-swipe.png
+      alt: "placeholder image 2"
+      title: ""
+  galleryCaption: | 
+    A 2D action platformer with roguelite elements built in Unity. Play as a cat fighting maniacle mechanical mice to prevent them from stealing the moon... that’s made of cheese.   

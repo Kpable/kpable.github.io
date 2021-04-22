@@ -7,7 +7,7 @@ intro:
 feature_row:
   - image_path: assets/images/heavy-is-the-crown-game-icon.png
     alt: "heavy-is-the-crown-game-icon"
-    title: "Heavy Is The Crown"
+    title: "Heavy is the Crown"
     excerpt: "A 2D top down game of heart wrenching resource management"
     url: "https://possumhousegames.com/games/heavy-is-the-crown/"
   - image_path: /assets/images/shot-in-the-dark-cover-image.png
@@ -23,44 +23,64 @@ feature_row:
 
 
 ---
+<br>
 
-![lesther-banner]({{ site.url }}{{ site.baseurl }}/assets/images/Lesther-Banner.png)
-{: .align-center}
+Hey! Currently I'm half of [Possum House Games](https://possumhousegames.com/) acting as the producer and programmer. While I wear more hats than that in the still young studio, my interests and strengths lie primarily in designing and implementing gameplay systems. 
 
-Hey! I'm **Lesther**!
+--- 
+
+{% comment %} {% include feature_row %} {% endcomment %}
+
+# Nine (In Development)
 {: .text-center}
 
-{% include feature_row %}
+{% assign game = site.data.games["Nine"] %}
 
-More at: 
+{% include gallery gameid="Nine" caption=game.galleryCaption %}
+
+{{ game.description }}
+
+<!-- # Shot in the Dark
+{: .text-center} -->
+
+{% assign game = site.data.games["Shot in the Dark"] %}
+
+<h1 class="text-center archive__item-title no_toc" itemprop="headline">
+    {{ game.name }} <a class="header-link" href="{{ game.links.first.url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+</h1>
+
+{% include gallery gameid=game.name caption=game.galleryCaption %}
+
+{{ game.description }}
+
+<!-- # They Seek the Lamp
+{: .text-center} -->
+
+{% assign game = site.data.games["They Seek the Lamp"] %}
+
+<h1 class="text-center archive__item-title no_toc" itemprop="headline">
+    {{ game.name }} <a class="header-link" href="{{ game.links.first.url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+</h1>
+
+{% include gallery gameid=game.name caption=game.galleryCaption %}
+
+{{ game.description }}
+
+<!-- # Heavy is the Crown
+{: .text-center} -->
+
+{% assign game = site.data.games["Heavy is the Crown"] %}
+
+<h1 class="text-center archive__item-title no_toc" itemprop="headline">
+    {{ game.name }} <a class="header-link" href="{{ game.links.first.url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+</h1>
+
+{% include gallery gameid=game.name caption=game.galleryCaption %}
+
+{{ game.description }}
+
+<!-- More at: 
 {: style="text-align: center;"}
 
 [ITCH.IO](https://kpable.itch.io/){: .btn .btn--inverse .btn--x-large}
-{: style="text-align: center;"}
-
-<!-- 
-  - image_path: /assets/images/the-door-within-game-icon.png
-    alt: "the-door-within-game-icon"
-    title: "The Door Within"
-    excerpt: ""
-    url: "https://kpable.itch.io/the-door-within"
-  - image_path: /assets/images/out-of-order-game-icon.png
-    alt: "out-of-order-game-icon"
-    title: "Out Of Order"
-    excerpt: "It's up to V3n-D0 to complete vending orders... too bad everthing is broken"
-    url: "https://thomasmrigney.itch.io/out-of-order"
-  - image_path: /assets/images/oof-what-a-drag-game-icon.png
-    alt: "oof-what-a-drag-game-icon"
-    title: "Oof What a Drag"
-    excerpt: ""
-    url: "https://kpable.itch.io/oof-what-a-drag"
-  - image_path: /assets/images/activate-the-laser-game-icon.png
-    alt: "activate-the-laser-game-icon"
-    title: "Activate The Laser"
-    excerpt: "Push the buttons! Activate the Laser!"
-    url: "https://kpable.itch.io/activate-the-laser"
-  - image_path: /assets/images/turn-me-on-game-icon.png
-    alt: "turn-me-on-game-icon"
-    title: "Turn Me On"
-    excerpt: "Push the right buttons in the right order."
-    url: "https://kpable.itch.io/turn-me-on" -->
+{: style="text-align: center;"} -->
