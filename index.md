@@ -31,10 +31,14 @@ Hey! Currently I'm half of [Possum House Games](https://possumhousegames.com/) a
 
 {% comment %} {% include feature_row %} {% endcomment %}
 
-# Nine (In Development)
-{: .text-center}
+<!-- # Nine (In Development)
+{: .text-center} -->
 
 {% assign game = site.data.games["Nine"] %}
+
+<h1 class="text-center archive__item-title no_toc" itemprop="headline">
+    {{ game.name }} <a class="header-link" href="{{ game.links.first.url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+</h1>
 
 {% include gallery gameid="Nine" caption=game.galleryCaption %}
 
