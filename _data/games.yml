@@ -5,7 +5,7 @@ Shot in the Dark:
   video: 53NrGikSnqs
   tagline: Teeth in the dark...
   description: |
-    **What I did:** Implemented Steam Achievement, Sound playback and transitioning system, Save Data, Level Select
+    **What I did:** Implemented stteam achievements, Music playback and transitioning system, Save data, Level select system
 
   links:
     - label: "Website"
@@ -92,7 +92,7 @@ Nine:
   video: dDXaM2JzQO8
   tagline: Maintain the flock. Maintain your home.
   description: |
-    **What I did:** External Tool integration, Entity state machine for player and enemies, Content creation tools, Cinematic System, Dialogue System, Player controller improvements
+    **What I did:** External tool and plugin integration, Entity state machine for player and enemies, Content creation tools, Cinematic system, Dialogue system, Player controller improvements
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
