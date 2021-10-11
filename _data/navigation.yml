@@ -1,9 +1,5 @@
 main:
-  # - title: "Resume"
-  #   url: /assets/GameplayProgrammer-LestherReynoso.pdf
-  #- title: "Categories"
-  #  url: /categories/
-  #- title: "Tags"
-  #  url: /tags/
-  - title: "Contact"
-    url: /#footer
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about
