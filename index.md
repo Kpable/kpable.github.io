@@ -6,7 +6,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/pexels-josh-sorenson-1714208.jpg
   caption: "This is not my desk"
-excerpt: "Hey! Thanks for swinging by!"
+excerpt: "Game Developer"
 intro: 
   - excerpt: |
         I'm a game developer with a strong software engineering background. Currently I'm co-founder [Possum House Games](https://possumhousegames.com/) acting as the producer, programmer, and handler of all things logistics. While I've worn many hats as a game dev, my interests and strengths lie primarily in designing and implementing gameplay systems. 
