@@ -31,7 +31,7 @@ gallery:
 
 Started as a side project (because you can never have too many of those) to test out a series of mechanics, tools, workflows, and pipelines. 
 
-We envisioned this to be a small side challenge in a larger world, isolated down to a single replayable experience. A challenge akin to the eagle towers in Assassins Creed or the Sheikah towers in Breath of the wild. But instead of overcoming the challenge of climbing a tower to reveal a part of a map, the intention here is toc appease spirits in a ghost ridden convinience store, charging your supernatural abilities for use elsewhere in a larger world. 
+We envisioned this to be a small side challenge in a larger world, isolated down to a single replayable experience. A challenge akin to the eagle towers in Assassins Creed or the Sheikah towers in Breath of the wild. But instead of overcoming the challenge of climbing a tower to reveal a part of a map, the intention here is to appease spirits in a ghost ridden convinience store, charging your supernatural abilities for use elsewhere in a larger world. 
 
 In this case the spirits want you to complete a shopping list. 
 
