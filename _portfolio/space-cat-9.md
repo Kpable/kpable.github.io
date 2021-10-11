@@ -40,6 +40,6 @@ gallery:
     alt: "placeholder image 2"
 ---
 
-I was hired on for a 2020 summer long contract to work on the game initially but by then couldn't step away from the game until it saw completion. Though the team took a break in the Fall, development resumed in February 2021. After working on it some more to get it to a fun playable state most of 2021, we finally hit a point where we could happily release a beta build to the public. 
+I was hired on for a 3 month contract to work on the game initially but by then couldn't step away from the game until it saw completion. Though the team took a break in the Fall, development resumed in February 2021. After working on it some more to get it to a fun playable state most of 2021, we finally hit a point where we could happily release a beta build to the public. 
 
 {% include gallery %}
