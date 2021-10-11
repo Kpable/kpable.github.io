@@ -26,7 +26,7 @@ sm_row:
     image_caption: "A first person snack run to a haunted store."
     alt: "spooky-mart"
     title: "Spooky Mart"
-    excerpt: 'A game taking place in a convenience store for the purpose of exploring the concept of repayable experiences in small spaces. Inspired by the challenges in open world games referred to as "Ubisoft Towers".'
+    excerpt: 'A game taking place in a haunted convenience store for the purpose of exploring the concept of repayable experiences in small spaces. Inspired by the challenges in open world games referred to as "Ubisoft Towers".'
     url: "/portfolio/spooky-mart"
     btn_label: "Read More"
     btn_class: "btn--primary"
