@@ -24,7 +24,7 @@ sidebar:
       Designer friendly tools
   - title: "Status"
     text: |
-      [Game Page](https://possumhousegames.com/games/heavy-is-the-crown/)
+      [Game Page](https://possumhousegames.com/heavy_is_the_crown/)
 
       [Freely available on Itch.io](https://possumhousegames.itch.io/heavy-is-the-crown)
 gallery:

@@ -30,7 +30,10 @@ sidebar:
                 
         Menu UI design and implementation
   - title: "Status"
-    text: "Free to play [Beta available on Itch.io](https://possumhousegames.itch.io/space-cat-9)"
+    text: |
+      [Game Page](https://possumhousegames.com/space_cat_nine)
+
+      Free to play [Beta available on Itch.io](https://possumhousegames.itch.io/space-cat-9)
 gallery:
   - url: /assets/images/space-cat-9/armory-swipe.png
     image_path: assets/images/space-cat-9/armory-swipe.png

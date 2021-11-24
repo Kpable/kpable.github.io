@@ -23,7 +23,7 @@ sidebar:
 
   - title: "Status"
     text: |
-      [Game Page](https://possumhousegames.com/games/shot-in-the-dark/)
+      [Game Page](https://possumhousegames.com/shot_in_the_dark/)
 
       [Demo available on Itch.io](https://possumhousegames.itch.io/shot-in-the-dark)
 
