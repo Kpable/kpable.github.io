@@ -10,7 +10,7 @@ excerpt: "Game Developer"
 intro: 
   - excerpt: |
         I'm a game developer with a strong software engineering background.
-        Currently full time at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/) 
+        Currently full time at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/). 
         I'm also co-founder [Possum House Games](https://possumhousegames.com/) handling all things logistics. While I've worn many hats as a game dev, my interests and strengths lie primarily in designing and implementing gameplay systems. 
         
         Below are some of my latest works! 
