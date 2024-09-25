@@ -115,7 +115,7 @@ author:
       url: "https://lestherreynoso.com"
     - label: "X"
       icon: "fab fa-fw fa-x-twitter-square"
-      url: "https://x.com/kpable"
+      # url: "https://x.com/kpable"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -137,7 +137,7 @@ footer:
   links:
     - label: "X"
       icon: "fab fa-fw fa-x-twitter-square"
-      url: "https://x.com/kpable"
+      # url: "https://x.com/kpable"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

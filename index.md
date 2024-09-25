@@ -73,12 +73,14 @@ hitc_row:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="sc9_row" type="left" %}
+{% include feature_row id="techtonica_row" type="left" %}
 
-{% include feature_row id="sm_row" type="right" %}
+{% include feature_row id="sc9_row" type="right" %}
 
-{% include feature_row id="sitd_row" type="left" %}
+{% include feature_row id="sm_row" type="left" %}
 
-{% include feature_row id="tstl_row" type="right" %}
+{% include feature_row id="sitd_row" type="right" %}
 
-{% include feature_row id="hitc_row" type="left" %}
+{% include feature_row id="tstl_row" type="left" %}
+
+{% include feature_row id="hitc_row" type="right" %}
