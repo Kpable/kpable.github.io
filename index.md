@@ -9,9 +9,20 @@ header:
 excerpt: "Game Developer"
 intro: 
   - excerpt: |
-        I'm a game developer with a strong software engineering background. Currently I'm co-founder [Possum House Games](https://possumhousegames.com/) acting as the producer, programmer, and handler of all things logistics. While I've worn many hats as a game dev, my interests and strengths lie primarily in designing and implementing gameplay systems. 
+        I'm a game developer with a strong software engineering background.
+        Currently full time at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/) 
+        I'm also co-founder [Possum House Games](https://possumhousegames.com/) handling all things logistics. While I've worn many hats as a game dev, my interests and strengths lie primarily in designing and implementing gameplay systems. 
         
         Below are some of my latest works! 
+techtonica_row:
+  - image_path: /assets/images/techtonica/techtonica-capsule.jpg
+    image_caption: "First person factory automation set underground."
+    alt: "techtonica"
+    title: "Techtonica"
+    excerpt: "First large scale game working with a small team full time! I'm a big fan of the factory automation genre so this game is incredible to help develop."
+    url: "/portfolio/techtonica"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 sc9_row:
   - image_path: /assets/images/space-cat-9/armory-swipe.png
     image_caption: "A 2D action platformer with roguelike elements."
