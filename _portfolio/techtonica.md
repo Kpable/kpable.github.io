@@ -8,7 +8,7 @@ header:
   teaser: /assets/images/techtonica/lima.jpg
 sidebar:
   - title: "Role"
-    image: /assets/images/techtonica/techtonica-capsule.png
+    image: /assets/images/techtonica/techtonica-capsule.jpg
     image_alt: "logo"
     text: "Gameplay Engineer"
   - title: "Key Contributions"
@@ -40,6 +40,6 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-I was hired on for a 3 month contract to work on the game initially but by then couldn't step away from the game until it saw completion. Though the team took a break in the Fall, development resumed in February 2021. After working on it some more to get it to a fun playable state most of 2021, we finally hit a point where we could happily release a beta build to the public. 
+I've gotten the opportunity to work on new mechanics and systems I have never worked on before at a scale I have not seen before in any of my previous games. I've also got to see and help the game grow and evolve over the years from before it entered early access and its many updates thereafter, few of which I was responsible for the marquee feature of the update. No pressure right.  
 
 {% include gallery %}
