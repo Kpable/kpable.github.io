@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-After graduating with a degree in Computer Science and Computer Engineering with a minor in Mathematics, I went on to work professionally as a Software Engineer for 6+ years. Through that experience I learned such topics such as:
+After graduating with a degree in Computer Science and Computer Engineering with a minor in Mathematics, I went on to work professionally as a Software Engineer for 9+ years. Through that experience I learned such topics such as:
 
 `software architecting` `feature design` `system design` `UML` `documentation` `requirements defining` `Jira` `task tracking` `project management` `interdisciplinary collaboration` `agile methodology` `scrum` `test driven development` `unit testing` `automated testing` `version control` `SVN` `Git` `programming languages` `C++` `C` `Python` `C#` `hardware constraints` `risk analysis and assessment` `memory management` `debugging` `coding standards` 
 
