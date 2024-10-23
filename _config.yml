@@ -103,8 +103,8 @@ analytics:
 author:
   name             : "Lesther Reynoso"
   avatar           : /assets/images/bio-photo-500x500.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Co-Founder and Game Developer at Possum House Games."
-  location         : "Bedford, MA"
+  bio              : "Gameplay Engineer at Fire Hose Games. Co-Founder of Possum House Games."
+  location         : "San Diego, CA"
   email            :
   links:
     - label: "Email"

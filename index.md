@@ -9,21 +9,40 @@ header:
 excerpt: "Game Developer"
 intro: 
   - excerpt: |
-        I'm a game developer with a strong software engineering background.
+        I'm a **game developer** with a strong **9+ year software engineering** background.
         Currently full time at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/). 
-        I'm also co-founder [Possum House Games](https://possumhousegames.com/) handling all things logistics. While I've worn many hats as a game dev, my interests and strengths lie primarily in designing and implementing gameplay systems. 
+        I also co-founded [Possum House Games](https://possumhousegames.com/) handling all things logistics. 
         
-        Below are some of my latest works! 
+        While I've worn many hats as a game dev, my interests and strengths lie as a **generalist programmer**, primarily in implementing **gameplay systems and mechanics**.
+        
+        Below are some of titles I've worked on! 
 techtonica_row:
   - image_path: /assets/images/techtonica/techtonica-capsule.jpg
-    image_caption: "First person factory automation set underground."
+    # image_caption: "First person factory automation set underground."
     alt: "techtonica"
     title: "Techtonica"
-    excerpt: "First large scale game working with a small team full time! I'm a big fan of the factory automation genre so this game is incredible to help develop."
-    url: "/portfolio/techtonica"
-    btn_label: "Read More"
+    excerpt: First person, multiplayer, narrative driven, factory automation game set in an underground voxel world with terrain manipulation.
+    # [Steam](https://store.steampowered.com/app/1457320/Techtonica/)
+    # "First large scale game working with a small team full time! I'm a big fan of the factory automation genre so this game is incredible to help develop."
+    # url: "/portfolio/techtonica"
+    url: "https://store.steampowered.com/app/1457320/Techtonica/"
+    btn_label: "Steam"
     btn_class: "btn--primary"
-sc9_row:
+
+techtonica_gallery:
+  - url: /assets/images/techtonica/lima.jpg
+    image_path: assets/images/techtonica/lima.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/techtonica/base-building.jpg
+    image_path: assets/images/techtonica/base-building.jpg
+    alt: "placeholder image 2"
+  - url: /assets/images/techtonica/vertical-belts.jpg
+    image_path: assets/images/techtonica/vertical-belts.jpg
+    alt: "placeholder image 3"
+
+possum_house_row:
+
+# sc9_row:
   - image_path: /assets/images/space-cat-9/armory-swipe.png
     image_caption: "A 2D action platformer with roguelike elements."
     alt: "space-cat-9"
@@ -32,7 +51,7 @@ sc9_row:
     url: "/portfolio/space-cat-9"
     btn_label: "Read More"
     btn_class: "btn--primary"
-sm_row:
+# sm_row:
   - image_path: /assets/images/spooky-mart/screenshot-1.png
     image_caption: "A first person snack run to a haunted store."
     alt: "spooky-mart"
@@ -41,7 +60,7 @@ sm_row:
     url: "/portfolio/spooky-mart"
     btn_label: "Read More"
     btn_class: "btn--primary"
-sitd_row:
+# sitd_row:
   - image_path: /assets/images/shot-in-the-dark/gargoylemoondone.png
     image_caption: "A 2D platformer / point and click shooter."
     alt: "shot-in-the-dark"
@@ -50,7 +69,7 @@ sitd_row:
     url: "/portfolio/shot-in-the-dark"
     btn_label: "Read More"
     btn_class: "btn--primary"
-tstl_row:
+# tstl_row:
   - image_path: /assets/images/they-seek-the-lamp/lamp.png
     image_caption: "A first person trek through mysterious woods in search for a way out."
     alt: "they-seek-the-lamp"
@@ -59,7 +78,7 @@ tstl_row:
     url: "/portfolio/they-seek-the-lamp"
     btn_label: "Read More"
     btn_class: "btn--primary"
-hitc_row:
+# hitc_row:
   - image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
     image_caption: "Top down 2D heart wrenching resource management game."
     alt: "shot-in-the-dark"
@@ -68,19 +87,90 @@ hitc_row:
     url: "/portfolio/heavy-is-the-crown"
     btn_label: "Read More"
     btn_class: "btn--primary"
+techtonica_work:
+  - title: "Machine Functionality"
+    # excerpt: | 
+    #   Can't have a factory without the machines to run it. I created and supported multiple machines to ensure proper flow of various types of automation pipelines. 
+      
+    #   I did wonder what it would be like to build and fix machines for a living. Surely this comes close to the real thing.
+    image_path: /assets/images/techtonica/lima.jpg
 
+  - title: "Player Equipment"
+    # excerpt: | 
+    #   The player uses a variety of equipment for exploring and nagivating the world. Either adding functionality to some or taking new ones through rapid protyping to full implentation. 
+
+    #   The Omniseeker in particular was a fun one, after all, a tool that find any type of object anywhere in a voxel world regardless of whether the target has been streamed in or not, not a tall ask right... not at all.
+    # url: "/portfolio/heavy-is-the-crown"
+    # btn_label: "Read More"
+    # btn_class: "btn--primary"
+    image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+    alt: "shot-in-the-dark"
+
+  - title: "FMOD Audio Integration"
+    # excerpt: | 
+    #   So there I was first week as a new hire and asked to covert the entirety of the game's audio to use FMOD, having never used it before. Well fortunately I'm a fast learner and I got it done in a week. 
+      
+    #   I went on to continute to support various audio intergration features and improvements throughout the course of developement working with the audio team.
+    image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+    alt: "shot-in-the-dark"
+
+  - title: "Building and Snapping"
+    # excerpt: "Key to the Base Building update, I worked with design to create a snapping and placement system that would be intuitive for the player and enable flexibility for designers to change rules for how various types of building pieces would interact with eachother based on a number of potential player contexts."
+    image_path: /assets/images/techtonica/base-building.jpg
+    alt: "shot-in-the-dark"
+
+  - title: "Player Controller"
+    # excerpt: "A small, cute game about responsibility and making tough choices. You maintain a flock of sheep and decide how you spend your day's earnings. Feed the family, yourself, or buy more sheep. Tough choices."
+    image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+    alt: "shot-in-the-dark"
+
+  - title: "Menus and HUD"
+    # excerpt: "Techtonica has A LOT of information to display to the player and the UI delivered through various gameplay, narrative, and machine menus. I prototyped some and integrated others from artist made mockups."
+    image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+    alt: "shot-in-the-dark"
+
+  - title: "Input Handling"
+    # excerpt: "Setting up controller detection, displaying the proper associated button prompt glyphs and handling, and input rebinding."
+    image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+    alt: "shot-in-the-dark"
+
+  - title: "Conveyor Belts"
+    # excerpt: "Core to the automation genre, I contributed a large part to the ease of placement and automatic conversion of belt type while the player drags and places belts however they like. Resources have places to be after all."
+    image_path: /assets/images/techtonica/vertical-belts.jpg
+    alt: "shot-in-the-dark"
+
+  - title: "Multiplayer"
+    # excerpt: "As a multiplayer game, many of the game's mechanics and systems needed to support proper netowrk messaging and syncing to ensure that all players got the full experience."
+    image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+    alt: "shot-in-the-dark"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
+### Fire Hose Games
+Gamplay Engineer
+
+
 {% include feature_row id="techtonica_row" type="left" %}
 
-{% include feature_row id="sc9_row" type="right" %}
+{% include gallery id="techtonica_gallery" %}
 
-{% include feature_row id="sm_row" type="left" %}
+---
 
-{% include feature_row id="sitd_row" type="right" %}
+<!-- {% include feature_row id="techtonica_work" %} -->
 
-{% include feature_row id="tstl_row" type="left" %}
+### Possum House Games
+Programmer, Project Manager, Co-Founder
 
-{% include feature_row id="hitc_row" type="right" %}
+{% include feature_row id="possum_house_row" %}
+
+<!-- 
+{% include feature_row id="sc9_row" %}
+
+{% include feature_row id="sm_row" %}
+
+{% include feature_row id="sitd_row" %}
+
+{% include feature_row id="tstl_row" %}
+
+{% include feature_row id="hitc_row" %} -->
