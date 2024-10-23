@@ -15,7 +15,7 @@ intro:
         
         While I've worn many hats as a game dev, my interests and strengths lie as a **generalist programmer**, primarily in implementing **gameplay systems and mechanics**.
         
-        Below are some of titles I've worked on! 
+        Below are some of the titles I've worked on! 
 techtonica_row:
   - image_path: /assets/images/techtonica/techtonica-capsule.jpg
     # image_caption: "First person factory automation set underground."
@@ -97,9 +97,9 @@ techtonica_work:
 
   - title: "Player Equipment"
     # excerpt: | 
-    #   The player uses a variety of equipment for exploring and nagivating the world. Either adding functionality to some or taking new ones through rapid protyping to full implentation. 
+    #   The player uses a variety of equipment for exploring and navigating the world. Either adding functionality to some or taking new ones through rapid prototyping to full implementation
 
-    #   The Omniseeker in particular was a fun one, after all, a tool that find any type of object anywhere in a voxel world regardless of whether the target has been streamed in or not, not a tall ask right... not at all.
+    #   The Omniseeker in particular was a fun one, after all, a tool that finds any type of object anywhere in a voxel world regardless of whether the target has been streamed in or not, not a tall ask right... not at all.
     # url: "/portfolio/heavy-is-the-crown"
     # btn_label: "Read More"
     # btn_class: "btn--primary"
@@ -108,14 +108,15 @@ techtonica_work:
 
   - title: "FMOD Audio Integration"
     # excerpt: | 
-    #   So there I was first week as a new hire and asked to covert the entirety of the game's audio to use FMOD, having never used it before. Well fortunately I'm a fast learner and I got it done in a week. 
+    #   So there I was for the first week as a new hire and asked to convert the entirety of the game's audio to use FMOD, having never used it before. Well fortunately I'm a fast learner and I got it done in a week. 
       
-    #   I went on to continute to support various audio intergration features and improvements throughout the course of developement working with the audio team.
+    #   I went on to continue to support various audio integration features and improvements throughout the course of development working with the audio team.
+
     image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
     alt: "shot-in-the-dark"
 
   - title: "Building and Snapping"
-    # excerpt: "Key to the Base Building update, I worked with design to create a snapping and placement system that would be intuitive for the player and enable flexibility for designers to change rules for how various types of building pieces would interact with eachother based on a number of potential player contexts."
+    # excerpt: "Key to the Base Building update, I worked with design to create a snapping and placement system that would be intuitive for the player and enable flexibility for designers to change rules for how various types of building pieces would interact with each other based on a number of potential player contexts."
     image_path: /assets/images/techtonica/base-building.jpg
     alt: "shot-in-the-dark"
 
@@ -140,7 +141,7 @@ techtonica_work:
     alt: "shot-in-the-dark"
 
   - title: "Multiplayer"
-    # excerpt: "As a multiplayer game, many of the game's mechanics and systems needed to support proper netowrk messaging and syncing to ensure that all players got the full experience."
+    # excerpt: "As a multiplayer game, many of the game's mechanics and systems needed to support proper network messaging and syncing to ensure that all players got the full experience."
     image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
     alt: "shot-in-the-dark"
 ---
@@ -148,7 +149,7 @@ techtonica_work:
 {% include feature_row id="intro" type="center" %}
 
 ### Fire Hose Games
-Gamplay Engineer
+Gameplay Engineer
 
 
 {% include feature_row id="techtonica_row" type="left" %}
