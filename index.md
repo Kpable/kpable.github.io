@@ -17,7 +17,7 @@ intro:
         
         Below is the latest title I've worked on! 
 techtonica_row:
-  # - image_path: /assets/images/techtonica/techtonica-capsule.jpg
+  - image_path: /assets/images/techtonica/techtonica-capsule.jpg
     # image_caption: "First person factory automation set underground."
     alt: "techtonica"
     title: "Techtonica"
