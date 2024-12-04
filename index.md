@@ -91,7 +91,9 @@ possum_house_row:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include video id="EFZL7IGAg0o" provider="youtube" %}{: .text-left}
+{% include feature_row id="techtonica_row" type="left" %}
+{% include gallery id="techtonica_gallery" %}
+
 <!-- 
 <style>
     .column-container {
