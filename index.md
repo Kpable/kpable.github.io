@@ -19,10 +19,10 @@ intro:
 techtonica_row:
   # - image_path: /assets/images/techtonica/techtonica-capsule.jpg
     # image_caption: "First person factory automation set underground."
-    # alt: "techtonica"
-    # title: "Fire Hose Games / Techtonica"
-    - excerpt: First person, multiplayer, narrative driven, factory automation game set in an underground voxel world with terrain manipulation.
-    # [Steam](https://store.steampowered.com/app/1457320/Techtonica/)
+    alt: "techtonica"
+    title: "Techtonica"
+    excerpt: First person, multiplayer, narrative driven, factory automation game set in an underground voxel world with terrain manipulation.
+    [Steam](https://store.steampowered.com/app/1457320/Techtonica/)
     # "First large scale game working with a small team full time! I'm a big fan of the factory automation genre so this game is incredible to help develop."
     # url: "/portfolio/techtonica"
     # url: "https://store.steampowered.com/app/1457320/Techtonica/"
