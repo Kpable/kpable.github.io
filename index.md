@@ -22,12 +22,12 @@ techtonica_row:
     alt: "techtonica"
     title: "Techtonica"
     excerpt: First person, multiplayer, narrative driven, factory automation game set in an underground voxel world with terrain manipulation.
-    [Steam](https://store.steampowered.com/app/1457320/Techtonica/)
+    # [Steam](https://store.steampowered.com/app/1457320/Techtonica/)
     # "First large scale game working with a small team full time! I'm a big fan of the factory automation genre so this game is incredible to help develop."
     # url: "/portfolio/techtonica"
-    # url: "https://store.steampowered.com/app/1457320/Techtonica/"
-    # btn_label: "Steam"
-    # btn_class: "btn--primary"
+    url: "https://store.steampowered.com/app/1457320/Techtonica/"
+    btn_label: "Steam"
+    btn_class: "btn--primary"
 
 techtonica_gallery:
   - url: /assets/images/techtonica/lima.jpg
