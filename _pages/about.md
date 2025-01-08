@@ -16,10 +16,11 @@ I also co-founded [Possum House Games](https://possumhousegames.com/), an indep
 
 `Game Engines` `Unity` `Construct 3` `Unreal` `Godot` `Pico 8` `GB Studio` `Third Party Platforms` `Steam` `Itch.io` `UI development` `remote collaboration` `game design` `level design` `system design` `story telling` `game production` `scheduling` `marketing` `PR` `game AI` `state machines` `cutscenes` `dialogue` `platformers` `first person experiences` `procedural generation` `C#` `development tools` `Blender` `Aseprite` `Gimp` `Sprytile`
 
-A few years later I joined Fire Hose Games as a Gameplay Engineer contributing to  the development of [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/) , a first person factory automation game set in an underground voxel world, through early access launch on Steam and Xbox, all the way through multiple updates and finally shipping the full game on those platforms and PS5. 
+A few years later I joined Fire Hose Games as a Gameplay Engineer contributing to  the development of [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/), a first person factory automation game set in an underground voxel world, through early access launch on Steam and Xbox, all the way through multiple updates and finally shipping the full game on those platforms and PS5. 
 
 Though I’ve learned a lot so far there are still many more topics I want to and continue to explore:
 
 `console development` `Nintendo Switch development`  `procedural generation` `hierarchical state machines` `third person game play` `narrative writing` `pixel art` `post processing` `3D environments`
 
-Feel free to reach out! Resumes are available upon request.
+Feel free to reach out!
+
