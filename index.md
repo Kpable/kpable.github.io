@@ -113,7 +113,7 @@ sitd-work:
 
 Additionally, I developed **internal tools** to streamline workflows for other disciplines, fostering cross-team collaboration and efficiency. By **iterating on released features** based on **player feedback**, I helped to enhance the game through **subsequent updates**. My efforts supported the project from **early access** through multiple **content and feature updates**, culminating in its **1.0 release** on **Steam**, **Xbox**, and **PS5**. -->
 
-{% include gallery id="techtonica_gallery" caption="**[Techtonica](https://store.steampowered.com/app/1457320/Techtonica/)** is a first-person factory automation game I contributed to as part of a team, developed using **Unity** and **C#**. Key contributions included **engineering core gameplay systems** such as **factory automation**, **terrain manipulation**, and **resource management**, while optimizing performance for **co-op gameplay**." %}
+{% include gallery id="techtonica_gallery" caption="**[Techtonica](https://store.steampowered.com/app/1457320/Techtonica/)** is a **first-person factory automation game** I helped bring to life as part of a dedicated team. **Developed using Unity and C#**, I contributed throughout its development cycle, from **early access** to its **full release on Steam, Xbox, and PS5**, including multiple **content and feature updates** that refined and expanded the player experience." %}
 
 #### Contributions
 {% include feature_row id="techtonica-work" %}
@@ -131,7 +131,7 @@ Leveraging skills in **systems design**, **core mechanics programming**, and **i
 
 After a brief pause in development, we resumed work, focusing on **optimizing performance**, **balancing mechanics**, and **enhancing player experience**. Through extensive **iteration**, **debugging**, and **feature implementation**, we reached a milestone where we confidently released a polished beta build to the public. -->
 
-{% include gallery id="sc9_gallery" caption="**[Space Cat 9](https://possumhousegames.com/space_cat_nine/)** is a roguelike platformer I helped develop using **Unity** and **C#**, where players have 9 lives to stop the Maniacal Mice from stealing the Moon. I contributed to its highly mobile platforming mechanics,  ensuring smooth gameplay and precision movement all optimized for a seamless player experience." %}
+{% include gallery id="sc9_gallery" caption="**[Space Cat 9](https://possumhousegames.com/space_cat_nine/)** **Space Cat 9** is a **roguelike platformer** I helped develop using **Unity** and **C#**, featuring **highly mobile platforming**, **intense boss battles**, and a **unique 9-lives system** which hit a milestone where we confidently released a polished beta build on **Itch.io**." %}
 
 #### Contributions
 {% include feature_row id="sc9-work" %}
@@ -147,7 +147,7 @@ After a brief pause in development, we resumed work, focusing on **optimizing pe
 
 Shortly afterwards, my business partner and I **co-founded Possum House Games**, creating a platform to release **Shot in the Dark** along with our past and future projects. -->
 
-{% include gallery id="sitd_gallery" caption="**[Shot in the Dark](https://possumhousegames.com/shot_in_the_dark/)** is a tense and challenging game I helped develop using **Construct 3**, blending **pixel-perfect platforming** with **precise point-and-click shooting mechanics**." %}
+{% include gallery id="sitd_gallery" caption="**[Shot in the Dark](https://possumhousegames.com/shot_in_the_dark/)** is a tense and challenging game I helped develop using **Construct 3**, blending **pixel-perfect platforming** with **precise point-and-click shooting mechanics** which released on both **Itch.io** and **Steam**." %}
 
 #### Contributions
 {% include feature_row id="sitd-work" %}
