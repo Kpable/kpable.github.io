@@ -9,12 +9,12 @@ header:
 excerpt: "Senior Gameplay Engineer"
 intro: 
   - excerpt: |
-        Hey there! I'm a game developer with a strong **9+ year software engineering** background. Recently a **Gameplay Engineer** at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/) gaining experience as a versatile **generalist** specializing in **developing** and **optimizing** core **gameplay mechanics**, game **features**, and **development tools**. 
+        Hey there! I'm a game developer with **over 9 years of software engineering experience**. As a **Gameplay Engineer** at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/),  I honed my skills as a versatile **generalist**, focusing on **developing core gameplay mechanics**, **features**, and **development tools** across various projects.
 
-        Prior to that, I co-founded [Possum House Games](https://possumhousegames.com/) tackling **production**, **programming**, **business development**, **marketing** and other miscellaneous logistics as I **taught myself many aspects of game development** over the years. 
+        Before that, I co-founded [Possum House Games](https://possumhousegames.com/) taking on diverse roles in **production**, **programming**, **business development**, and **marketing**, while **teaching myself the many facets of game development** along the way.
 
         While there are countless game development technologies, techniques, and topics I’m eager to explore, the projects below showcase some of the most recent work I’ve completed and the areas I’ve had the privilege to dive deep into during development!
-        
+
     image_path: assets/images/bio-photo-500x500.png
 
 # -------------------------------------
