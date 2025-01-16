@@ -12,6 +12,9 @@ intro:
         Hey there! I'm a game developer with a strong **9+ year software engineering** background. Recently a **Gameplay Engineer** at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/) gaining experience as a versatile **generalist** specializing in **developing** and **optimizing** core **gameplay mechanics**, game **features**, and **development tools**. 
 
         Prior to that, I co-founded [Possum House Games](https://possumhousegames.com/) tackling **production**, **programming**, **business development**, **marketing** and other miscellaneous logistics as I **taught myself many aspects of game development** over the years. 
+
+        While there are countless game development technologies, techniques, and topics I’m eager to explore, the projects below showcase some of the most recent work I’ve completed and the areas I’ve had the privilege to dive deep into during development!
+        
     image_path: assets/images/bio-photo-500x500.png
 
 # -------------------------------------
@@ -51,8 +54,8 @@ techtonica-work:
 # Space Cat 9
 # -------------------------------------
 sc9_gallery_main:
-  - url: /assets/images/space-cat-9/SpaceCat9_Logo_Color_4x.png
-    image_path: assets/images/space-cat-9/SpaceCat9_Logo_Color_4x.png
+  - url: /assets/images/space-cat-9/space-cat-9-banner.png
+    image_path: assets/images/space-cat-9/space-cat-9-banner.png
     alt: "Space Cat 9 Logo"
 sc9_gallery:
   - url: /assets/images/space-cat-9/armory-swipe.png
