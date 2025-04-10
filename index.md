@@ -16,7 +16,11 @@ intro:
         While there are countless game development technologies, techniques, and topics I’m eager to explore, the projects below showcase some of the most recent work I’ve completed and the areas I’ve had the privilege to dive deep into during development!
 
     image_path: assets/images/bio-photo-500x500.jpg
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> refs/remotes/origin/master
 # -------------------------------------
 # Techtonica
 # -------------------------------------
