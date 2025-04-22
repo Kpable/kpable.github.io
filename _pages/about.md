@@ -1,26 +1,60 @@
 ---
-title: About
-layout: single
+layout: page
+title: About Me
 permalink: /about/
-author_profile: true
-classes: wide
+image: '/images/bio-photo-sq.jpg'
 ---
 
-After graduating with a degree in Computer Science and Computer Engineering with a minor in Mathematics, I went on to work professionally as a Software Engineer for 9+ years. Through that experience I learned such topics such as:
+Hey, I’m Alex - part developer, part digital explorer, and full-time lover of all things tech. From crafting lines of code on Linux to unraveling the layers of cybersecurity, my passion for technology goes beyond just a career.
 
-`software architecting` `feature design` `system design` `UML` `documentation` `requirements defining` `Jira` `task tracking` `project management` `interdisciplinary collaboration` `agile methodology` `scrum` `test driven development` `unit testing` `automated testing` `version control` `SVN` `Git` `programming languages` `C++` `C` `Python` `C#` `hardware constraints` `risk analysis and assessment` `memory management` `debugging` `coding standards`
+{: .note }
+Even the most experienced developers don't know everything
 
-During the first half of my career, I began independently studying game development part time working with Unity3D and C#, getting involved with my local community where I’ve had the opportunity to speak in workshops and as a panelist during the annual game festival.
+Over the years, my curiosity only deepened. I became a coder, learning languages like Python, JavaScript, and C++, and fell in love with the sheer power of programming. For me, coding isn’t just a skill; it’s a language for bringing ideas to life. The thrill of debugging, the satisfaction of building something from scratch, and the endless potential of code keep me motivated every day. Coding lets me shape my vision into reality, one line at a time.
 
-I also co-founded [Possum House Games](https://possumhousegames.com/), an independent game studio, where I continued to develop games and my skills as a game developer. Working in small teams has led to wearing many hats, providing me the chance to learn and explore the following topics:
+> Curiosity fuels my code, Linux keeps me grounded, and every bug is just a puzzle waiting to be solved.
 
-`Game Engines` `Unity` `Construct 3` `Unreal` `Godot` `Pico 8` `GB Studio` `Third Party Platforms` `Steam` `Itch.io` `UI development` `remote collaboration` `game design` `level design` `system design` `story telling` `game production` `scheduling` `marketing` `PR` `game AI` `state machines` `cutscenes` `dialogue` `platformers` `first person experiences` `procedural generation` `C#` `development tools` `Blender` `Aseprite` `Gimp` `Sprytile`
+Linux was a turning point. Once I got into Linux, I realized how transformative open-source software could be. I started with Ubuntu, dabbled in Debian, and eventually moved on to Arch. Linux taught me how customizable, flexible, and free technology could truly be. It’s more than an operating system—it’s a philosophy that resonates with my love for exploration and problem-solving. My Linux setup is always evolving, whether I'm configuring a new window manager or experimenting with terminal commands. It’s like a puzzle I never get tired of solving.
 
-A few years later I joined Fire Hose Games as a Gameplay Engineer contributing to  the development of [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/), a first person factory automation game set in an underground voxel world, through early access launch on Steam and Xbox, all the way through multiple updates and finally shipping the full game on those platforms and PS5. 
+<div class="gallery-box">
+  <div class="gallery gallery-columns-2">
+    {% include img.html src ="/images/01-4.jpg" alt="Keyboard" caption="The symphony of keys" %}
+    {% include img.html src ="/images/01-5.jpg" alt="Keyboard" caption="Where every keystroke brings ideas to life" %}
+    {% include img.html src ="/images/01-6.jpg" alt="Keyboard" caption="The quiet hum of creativity" %}
+    {% include img.html src ="/images/01-7.jpg" alt="Keyboard" caption="Ready to transform thoughts into text" %}
+  </div>
+  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+</div>
 
-Though I’ve learned a lot so far there are still many more topics I want to and continue to explore:
+Gaming is another integral part of my story. Growing up with video games, I’ve seen firsthand how gaming has evolved from simple pixelated platforms to immersive, narrative-driven experiences. My love for gaming goes beyond just playing; I enjoy analyzing game mechanics, studying character design, and understanding the technology behind these virtual worlds. Indie games hold a special place in my heart because they represent the creativity and innovation of small teams that pour their souls into making something unique.
 
-`console development` `Nintendo Switch development`  `procedural generation` `hierarchical state machines` `third person game play` `narrative writing` `pixel art` `post processing` `3D environments`
+```js
+  $('.top').click(function () {
+    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
+  });
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > $(window).height()) {
+      $('.top').addClass("top-active");
+    } else {
+      $('.top').removeClass("top-active");
+    };
+  });
+```
 
-Feel free to reach out!
+When I’m not coding or gaming, I’m diving into the world of comics and sci-fi movies. Both are more than hobbies—they’re ways to explore the “what ifs” of life. Comics taught me that even fictional heroes have real struggles, and sci-fi movies sparked my imagination about the future.
 
+## The Mind Behind the Keyboard
+
+Building this blog has been a passion project. It’s a place where I can share my journey, document what I learn, and connect with people who have the same interests. I’ve written countless tutorials, tech tips, and reviews because I want to create a resource I wish I had when I was starting out. The tech world can be intimidating, but it doesn’t have to be. Thоrough this blog, I hope to make technology accessible, fun, and rewarding for people of all skill levels.
+
+![Keyboard]({{site.baseurl}}/images/01-3.jpg)
+*Photo by [Pablo Stanley](https://www.lummi.ai/photo/contemplative-technicolor-workstation-sonrb) on [Lummi](https://www.lummi.ai/)*
+
+Looking back, I see that each step in my journey—whether it was installing my first Linux distro, debugging my first program, or exploring cybersecurity—has shaped me into who I am today.
+
+The geek in me thrives on discovery, and as I explore new topics and skills, I’m reminded that there’s always more to learn. That’s the beauty of the tech world: no matter how much you know, there’s always a new challenge or a new horizon waiting.
+
+{: .important }
+Automate repetitive tasks. If you find yourself doing the same task multiple times, it's a sign you should automate it.
+
+Thank you for being here and for sharing in this journey with me. This blog is more than just articles and posts; it’s a community of curious, passionate individuals who love technology, creativity, and the endless pursuit of knowledge. Whether you’re a fellow Linux enthusiast, a developer looking for new ideas, or just someone curious about the digital world, I’m excited to connect and share this space with you.

@@ -1,0 +1,193 @@
+#-------------------------------
+# Site Settings
+title: Lesther Reynoso
+description: A portfolio highlighting my experience building game systems, interfaces, and tools.
+logo: # You can add own logo. For example '/images/logo.png'.
+logo_dark:
+
+
+#-------------------------------
+# Color Scheme Settings
+color_scheme:
+  default: light # Default theme applied on the first visit (options: "light" or "dark")
+  toggle: true # Enable theme toggle
+
+# Enables or disables the theme toggle functionality:
+# - true: Users can switch between light and dark modes using a toggle button.
+#          The site will remember their choice for future visits.
+# - false: The theme will always use the default mode specified above,
+#          and the toggle button will not be displayed.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Archive'
+      url: '/archive/'
+    # - url: '/about/'
+    #   title: 'About'
+    # - title: 'Videos'
+    #   url: '/videos/'
+    # - title: 'Pages'
+    #   submenu:
+      
+      # - url: '/contact/'
+      #   title: 'Contact'
+      # - url: '/elements/'
+      #   title: 'Elements'
+
+
+#-------------------------------
+# Author Settings
+author:
+  author_name: Lesther Reynoso
+  author_avatar: /images/bio-photo-sq-sm.jpg
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero_avatar: /images/bio-photo-sq-sm.jpg
+  hero_title: Hey! I’m Lesther 👋
+  hero_subtitle: A gameplay programmer
+  hero_description: |
+    Hey there! I'm a game developer with **over 10 years of software engineering experience**. 
+    
+    As a **Gameplay Engineer** at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/),  I honed my skills as a versatile **generalist**, focusing on **developing core gameplay mechanics**, **features**, and **development tools** across various projects.
+
+    Before that, I co-founded [Possum House Games](https://possumhousegames.com/) taking on diverse roles in **production**, **programming**, **business development**, and **marketing**, while **teaching myself the many facets of game development** along the way.
+
+    While there are countless game development technologies, techniques, and topics I’m eager to explore, the posts below showcase some of the most recent work I’ve completed and the areas I’ve had the privilege to dive deep into during development!
+  hero_image: /images/pexels-josh-sorenson-1714208.jpg
+  hero_image_caption: Not my desk, but close enough
+  # hero_button_text: Let’s Work Together
+  # hero_button_link: '/contact/'
+
+
+# Logos
+logos:
+  enable: true
+  logos_title: Nerd Stuff
+  logo_image:
+    - alt: "Game Boy"
+      image: "/images/1000.jpg"
+    - alt: "Super Nintendo"
+      image: "/images/1001.jpg"
+    - alt: "Keyboard"
+      image: "/images/1002.jpg"
+    - alt: "Headphones"
+      image: "/images/1003.jpg"
+    - alt: "Mouse"
+      image: "/images/1004.jpg"
+
+
+#-------------------------------
+# Section Blog Settings
+blog:
+  enable: true
+  blog_title: The Debug Diaries
+
+
+#-------------------------------
+# Tags Section Settings
+tags_section:
+  enable: true
+  tags_section_title: Knowledge Nodes
+  tags:
+    - tag: "Gameplay"
+      image: "/images/1001.jpg"
+    - tag: "UI"
+      image: "/images/21.jpg"
+    - tag: "Games"
+      image: "/images/1000.jpg"
+    - tag: "Programming"
+      image: "/images/20.jpg"
+
+#-------------------------------
+# Videos Section Settings
+videos_section:
+  enable: true
+  videos_section_title: Latest Videos
+
+
+#-------------------------------
+# Gallery Section Settings
+gallery_section:
+  enable: true
+  gallery_section_title: Byte Frame
+  gallery:
+    gallery_images:
+      - alt: 'Rest'
+        url: '/images/100.jpg'
+        caption: 'Small steps lead to big results.'
+      - alt: 'Lifestyle'
+        url: '/images/101.jpg'
+        caption: 'A peaceful moment captured during a serene evening.'
+      - alt: 'Hobby'
+        url: '/images/102.jpg'
+        caption: 'True friends are like stars — they shine brightest when the world feels dark.'
+      - alt: 'Computers'
+        url: '/images/103.jpg'
+        caption: 'Every click opens a new chapter in an endless story.'
+      - alt: 'Games'
+        url: '/images/104.jpg'
+        caption: 'Every level is a new opportunity to test your limits.'
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: false
+  mailchimp_title: Stay inspired weekly ✌️
+  mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
+  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: Your email address...
+  mailchimp_button_text: Join Now
+
+
+#-------------------------------
+# Footer Settings
+footer_description: Welcome to my portfolio — a curated collection of projects, technical insights, and development challenges from my work as a gameplay programmer and technical designer. Here you'll find real-world implementations, reflections on problem-solving, and highlights from a systems-focused, collaborative approach to game development.
+
+
+#-------------------------------
+# Social Settings
+social:
+# - {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
+# - {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
+# - {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social"}
+# - {icon: "fa-brands fa-reddit-alien", name: "Reddit", link: "https://reddit.com"}
+- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com/kpable"}
+- {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/in/lesther-reynoso"}
+- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
+
+# Example of adding a new link to the sidebar and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  form_id: your@email.com # Add your form_id
+  button_text: Send Now
+
+# NOTE
+# Coderon theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: false
+  disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+  disqus_title: Start the conversation
+  disqus_button_text: Show Comments
+
+
+#-------------------------------
+# Google Analytics
+google_analytics: # Add your GA Tracking Id
