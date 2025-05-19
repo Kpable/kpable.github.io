@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Techtonica - First Person factory automation set in an underground voxel world.
 description: Techtonica is a first-person factory automation game I helped bring to life as part of a dedicated team.
 date: 2024-11-07 15:01:35 +0300
@@ -12,6 +12,7 @@ featured: true
 - **Studio:** Fire Hose Games
 - **Engine:** Unity
 - **Platforms:** Steam, Microsoft Store, Xbox One, Xbox Series X/S, PS5
+- **Team Size:** 20
 
 --- 
 

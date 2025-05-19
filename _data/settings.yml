@@ -21,12 +21,12 @@ color_scheme:
 
 #-------------------------------
 # Navigation Settings
-menu_settings:
-  menu_items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Archive'
-      url: '/archive/'
+# menu_settings:
+#   menu_items:
+#     - title: 'Home'
+#       url: '/'
+#     - title: 'Archive'
+#       url: '/archive/'
     # - url: '/about/'
     #   title: 'About'
     # - title: 'Videos'
