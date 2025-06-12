@@ -1,0 +1,36 @@
+{% for post in site.posts %}
+  {% if post.featured == true %}
+    {% assign is-featured = true %}
+  {% endif %}
+{% endfor %}
+
+{% if is-featured == true %}
+{% assign count = 0 %}
+{% assign featuredPosts = site.posts | where: 'featured', true %}
+<div class="widget widget-featured-posts">
+  <div class="widget-sidebar-head">
+    <h2 class="widget-sidebar-title">Featured posts</h2>
+  </div>
+  <div class="col col-12">
+        <div class="row grid">
+          {% if site.posts.size > 0 %}
+            {% for post in paginator.posts %}
+                {% if post.featured == true %}
+                    {% include article.html class="article--flexible col col-6 col-t-12 grid__post animate" %}
+                {% endif %}
+              {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    </div>
+  {% for fp in featuredPosts %}
+    {% if fp.url != page.url %}
+    {% assign count = count | plus:1 %}
+    
+    {% if count == 8 %}{% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</div>
+{% endif %}

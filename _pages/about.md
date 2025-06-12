@@ -5,14 +5,16 @@ permalink: /about/
 image: '/images/bio-photo-sq.jpg'
 ---
 
-Hey, I’m Alex - part developer, part digital explorer, and full-time lover of all things tech. From crafting lines of code on Linux to unraveling the layers of cybersecurity, my passion for technology goes beyond just a career.
+Hey, I’m Lesther. I like building cool stuff in code so players can do cool stuff in games.
+
+ - part developer, part digital explorer, and full-time lover of all things tech. From crafting lines of code on Linux to unraveling the layers of cybersecurity, my passion for technology goes beyond just a career.
 
 {: .note }
 Even the most experienced developers don't know everything
 
 Over the years, my curiosity only deepened. I became a coder, learning languages like Python, JavaScript, and C++, and fell in love with the sheer power of programming. For me, coding isn’t just a skill; it’s a language for bringing ideas to life. The thrill of debugging, the satisfaction of building something from scratch, and the endless potential of code keep me motivated every day. Coding lets me shape my vision into reality, one line at a time.
 
-> Curiosity fuels my code, Linux keeps me grounded, and every bug is just a puzzle waiting to be solved.
+> Building cool stuff in code so players can do cool stuff in games.
 
 Linux was a turning point. Once I got into Linux, I realized how transformative open-source software could be. I started with Ubuntu, dabbled in Debian, and eventually moved on to Arch. Linux taught me how customizable, flexible, and free technology could truly be. It’s more than an operating system—it’s a philosophy that resonates with my love for exploration and problem-solving. My Linux setup is always evolving, whether I'm configuring a new window manager or experimenting with terminal commands. It’s like a puzzle I never get tired of solving.
 

@@ -21,12 +21,14 @@ color_scheme:
 
 #-------------------------------
 # Navigation Settings
-# menu_settings:
-#   menu_items:
-#     - title: 'Home'
-#       url: '/'
-#     - title: 'Archive'
-#       url: '/archive/'
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Resume'
+      url: '/resume/'
+    # - title: 'Archive'
+    #   url: '/archive/'
     # - url: '/about/'
     #   title: 'About'
     # - title: 'Videos'
@@ -57,11 +59,15 @@ hero:
   hero_description: |
     Hey there! I'm a game developer with **over 10 years of software engineering experience**. 
     
-    As a **Gameplay Engineer** at Fire Hose Games working on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/),  I honed my skills as a versatile **generalist**, focusing on **developing core gameplay mechanics**, **features**, and **development tools** across various projects.
+    My career so far at a glance:
+    - Embedded software engineer **(C++)** focused on radio systems **for 6 years**.
+    - **Self-taught** game development with **Unity & C#** on nights and weekends.
+    - **Started a small indie studio**, [Possum House Games](https://possumhousegames.com/), working with teams of 2-7 developers, **releasing 3 titles** across Steam and Itch.io. 
+    - Joined Fire Hose Games for **3 years** to work on [Techtonica](https://store.steampowered.com/app/1457320/Techtonica/) **as a Gameplay Engineer** focusing on **developing core gameplay mechanics**, **features**, and **development tools**.
+    - Currently developing a multiplayer top-down RPG using **Unreal Engine 5** and the **Gameplay Ability System (GAS)**.
 
-    Before that, I co-founded [Possum House Games](https://possumhousegames.com/) taking on diverse roles in **production**, **programming**, **business development**, and **marketing**, while **teaching myself the many facets of game development** along the way.
+    Below showcases my recent work!
 
-    While there are countless game development technologies, techniques, and topics I’m eager to explore, the posts below showcase some of the most recent work I’ve completed and the areas I’ve had the privilege to dive deep into during development!
   hero_image: /images/pexels-josh-sorenson-1714208.jpg
   hero_image_caption: Not my desk, but close enough
   # hero_button_text: Let’s Work Together
@@ -163,7 +169,7 @@ social:
 # - {icon: "fa-brands fa-reddit-alien", name: "Reddit", link: "https://reddit.com"}
 - {icon: "fa-brands fa-github", name: "Github", link: "https://github.com/kpable"}
 - {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/in/lesther-reynoso"}
-- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
+# - {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
 
 # Example of adding a new link to the sidebar and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
 # Other icons can be found at https://fontawesome.com/icons
